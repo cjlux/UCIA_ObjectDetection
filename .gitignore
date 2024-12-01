@@ -1,0 +1,11 @@
+*.pt
+*.onnx
+*.bin
+*.tgz
+*.swp
+*.torchscript
+last.pt
+weights/
+runs/
+Sandbox/
+

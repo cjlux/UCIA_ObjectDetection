@@ -1,0 +1,50 @@
+Le répertoire des datasets est fixé par le fichier home/jlc/.config/Ultralytics/settings.json:
+    "datasets_dir": "/home/jlc/work/JLC-AE/Projets/UCIA_PoppyStation/datasets"
+
+
+Ultralytics 8.3.35 🚀 Python-3.12.7 torch-2.5.1+cu124 CPU (11th Gen Intel Core(TM) i7-1165G7 2.80GHz)
+YOLO11n summary (fused): 238 layers, 2,582,737 parameters, 0 gradients, 6.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.03s/it]
+                   all         12        120      0.975      0.996      0.988      0.828
+                  ball         12         47      0.967          1      0.974      0.832
+                  cube         12         25          1      0.987      0.995      0.852
+                  star         12         48      0.957          1      0.994        0.8
+Speed: 1.5ms preprocess, 62.3ms inference, 0.0ms loss, 18.7ms postprocess per image
+
+Ultralytics 8.3.35 🚀 Python-3.12.7 torch-2.5.1+cu124 CPU (11th Gen Intel Core(TM) i7-1165G7 2.80GHz)
+YOLO11s summary (fused): 238 layers, 9,413,961 parameters, 0 gradients, 21.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.84s/it]
+                   all         12        120      0.989          1      0.994      0.854
+                  ball         12         47      0.977          1      0.991      0.855
+                  cube         12         25      0.992          1      0.995      0.873
+                  star         12         48      0.999          1      0.995      0.834
+Speed: 1.3ms preprocess, 148.4ms inference, 0.0ms loss, 0.4ms postprocess per image
+Results saved to UCIA-YOLO11n/a
+
+Ultralytics 8.3.35 🚀 Python-3.12.7 torch-2.5.1+cu124 CPU (11th Gen Intel Core(TM) i7-1165G7 2.80GHz)
+YOLO11n summary (fused): 238 layers, 2,582,737 parameters, 0 gradients, 6.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00,  1.07it/s]
+                   all         12        120      0.989      0.993      0.989      0.827
+                  ball         12         47      0.978          1      0.978      0.833
+                  cube         12         25       0.99          1      0.995      0.835
+                  star         12         48      0.999      0.979      0.994      0.814
+Speed: 1.0ms preprocess, 56.2ms inference, 0.0ms loss, 17.9ms postprocess per image
+Results saved to UCIA-YOLO11n/b
+
+YOLO11n summary (fused): 238 layers, 2,582,737 parameters, 0 gradients, 6.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+                   all         12        120      0.981      0.988      0.991      0.832
+                  ball         12         47      0.968          1      0.984      0.837
+                  cube         12         25          1      0.985      0.995      0.853
+                  star         12         48      0.976      0.979      0.993      0.806
+Speed: 1.1ms preprocess, 58.4ms inference, 0.0ms loss, 6.5ms postprocess per image
+Results saved to UCIA-YOLO11n/c
+
+YOLO11s summary (fused): 238 layers, 9,413,961 parameters, 0 gradients, 21.3 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.94s/it]
+                   all         12        120       0.99          1      0.992      0.844
+                  ball         12         47      0.977          1      0.985      0.847
+                  cube         12         25      0.994          1      0.995      0.859
+                  star         12         48      0.999          1      0.995      0.826
+Speed: 1.2ms preprocess, 156.4ms inference, 0.0ms loss, 0.6ms postprocess per image
+Results saved to UCIA-YOLO11s/b
