@@ -12,6 +12,7 @@ Les tests sur RPi4 donnent des temps d'inférence inférieurs à la secondes, av
 - yolov8n entraîné avec batchsize=8 et epochs=90,
 - yolov11n entraîné avec batchsize=8 et epochs=90.
 
+Ce dépôt GiHub ne contient pas les fichiers binaires des réseaux YOLO (**yolov8n**, **yolov8s**, **yolo11n**, **yolo11s**) entrainnés pour les valeurs des méta-paramètre d'entraînement : **batchsize** (2, 4, 8, 16, 20) et **epochs** (20, 40, 60, 80, 100), ce qui donne 120 fichiers binaires au format ONNX et NCNN.
+Pour les construire, il faut taper `Training/train_YOLOv8.py` et `Training/train_YOLOv8.py' dans un terminal, depuis le répertoire `UCIA_ObjectDetection/Training/`.
 
-Ce dépôt GiHub contient les fichiers binaires des réseaux YOLO (**yolov8n**, **yolov8s**, **yolo11n**, **yolo11s**) entrainnés pour les valeurs des méta-paramètre d'entraînement : **batchsize** (2, 4, 8, 16, 20) et **epochs** (20, 40, 60, 80, 100), ce qui donne 120 fichiers binaires au format ONNX et NCNN.
 
