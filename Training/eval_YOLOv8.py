@@ -15,7 +15,7 @@ EPOCH = (20, 40, 60, 80, 100)
 YOLO_SIZE = ('n', 's')
 
 header  = '#meta-params\tpre[ms]\tinf[ms]\tloss[ms]\tpost[ms]\t'
-header += 'prec\trecall\tmAP50\tmAP50-95\tfitnessi\n'
+header += 'prec\trecall\tmAP50\tmAP50-95\tfitness\n'
 header += '#pre:preprocessing; inf:inference; post:postprocessing; prec:precision\n'
 
 for size in YOLO_SIZE:

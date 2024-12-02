@@ -1,4 +1,4 @@
-#meta-params	pre[ms]	inf[ms]	loss[ms]	post[ms]	prec	recall	mAP50	mAP50-95	fitnessi
+#meta-params	pre[ms]	inf[ms]	loss[ms]	post[ms]	prec	recall	mAP50	mAP50-95	fitness
 #pre:preprocessing; inf:inference; post:postprocessing; prec:precision
 batch-02_epo-020	0.27	5.41	0.00	2.31	0.997	0.959	0.992	0.815	0.833
 batch-02_epo-040	0.27	4.88	0.00	1.99	0.982	0.981	0.983	0.827	0.843
