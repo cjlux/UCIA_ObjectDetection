@@ -8,4 +8,5 @@ last.pt
 weights/
 runs/
 Sandbox/
-
+.~loc*
+Admin/
