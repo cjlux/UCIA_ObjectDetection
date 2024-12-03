@@ -1,5 +1,5 @@
 #*.pt
-*.onnx
+#*.onnx
 *.bin
 *.tgz
 *.swp
