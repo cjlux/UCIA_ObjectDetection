@@ -31,10 +31,10 @@ picam2.start()
 #yolo_trained = 'YOLO-trained/UCIA-YOLOv8n/batch-04_epo-100/weights/best_ncnn_model'
 #yolo_trained = 'YOLO-trained/UCIA-YOLOv8s/batch-04_epo-100/weights/best_ncnn_model'
 
-yolo_trained = 'YOLO-trained/UCIA-YOLO11n/batch-02_epo-100/weights/best_ncnn_model'
+#yolo_trained = 'YOLO-trained/UCIA-YOLO11n/batch-02_epo-100/weights/best_ncnn_model'
 #yolo_trained = 'YOLO-trained/UCIA-YOLO11n/batch-02_epo-100/weights/best.onnx'
 
-#yolo_trained = 'YOLO-trained/UCIA-YOLO11n/batch-04_epo-100/weights/best_ncnn_model'
+yolo_trained = 'YOLO-trained/UCIA-YOLO11n/batch-04_epo-100/weights/best_ncnn_model'
 #yolo_trained = 'YOLO-trained/UCIA-YOLO11n/batch-04_epo-100/weights/best.onnx'
 
 #yolo_trained = 'YOLO-trained/UCIA-YOLO11n/batch-10_epo-080/weights/best_ncnn_model'
@@ -70,7 +70,7 @@ while True:
         else:
             col   = avRGB.argmax()
             color = colors[col]
-        print(name, conf, color, (y1,x2,y2,x1), tuple(avRGB.astype(int)))
+        print(name, f'{float(conf):.2f}', color, (y1,x2,y2,x1), tuple(avRGB.astype(int)))
     
     # Break the loop if 'q' is pressed
     if cv2.waitKey(1) == ord("q"):
