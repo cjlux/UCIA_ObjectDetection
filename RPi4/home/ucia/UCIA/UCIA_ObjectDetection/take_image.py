@@ -15,19 +15,19 @@ picam2.start()
 n = 1
 rep = input("numéro image pour démarrer [Q:quit] ? ")
 
-if rep.lower() == 'q' 
-	picam2.stop()
-	sys.exit()
+if rep.lower() == 'q':
+    picam2.stop()
+    sys.exit()
 else:
-	n = int(rep)
+    n = int(rep)
 
 while True:
-	rep = input("ENTER -> image suivante [Q:quit] ...")
-	if rep.lower() == 'q': 
-		break
+    rep = input(f"ENTER -> image suivante {n:03d} [Q:quit] ...")
+    if rep.lower() == 'q': 
+        break
 	
-	picam2.capture_file(f"objets3D-{n:03d}.jpg")
-	time.sleep(1)
-	n += 1
+    picam2.capture_file(f"objets3D-{n:03d}.jpg")
+    time.sleep(1)
+    n += 1
 
 picam2.stop()
