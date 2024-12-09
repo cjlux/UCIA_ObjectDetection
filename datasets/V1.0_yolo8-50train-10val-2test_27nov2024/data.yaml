@@ -1,4 +1,4 @@
-path: yolo8-50train-10val-2test_27nov2024
+path: V1.0_yolo8-50train-10val-2test_27nov2024
 train: train/images
 val: valid/images
 test: test/images
