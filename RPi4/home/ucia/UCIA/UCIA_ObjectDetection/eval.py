@@ -12,6 +12,43 @@ import numpy as np
 
 plot = True
 
+'''
+yolo_trained = 'YOLO-Trained/UCIA-YOLO11n/a/weights/best.pt'
+
+t0 = time()
+# Load a pretrained YOLO11n model
+model = YOLO(yolo_trained)
+load_time = time() - t0
+print(f"model loaded in {load_time} sec")
+
+t0 = time()
+img = Image.open("image.jpg")
+img = img.resize((640, 640))
+img_g = img.convert("L")
+    
+# Run inference on 'bus.jpg' with arguments
+t0 = time()
+result = model.predict(img_g, imgsz=640, conf=0.6, max_det=11)[0]
+print(f"Inference: {1000*(time() - t0):.1f} ms")
+
+sleep(2)
+
+# Run inference on 'bus.jpg' with arguments
+t0 = time()
+result = model.predict(img_g, imgsz=640, conf=0.6, max_det=11)[0]
+print(f"Inference: {1000*(time() - t0):.1f} ms")
+
+boxes = result.boxes  # Boxes object for bounding box outputs
+print(f'{boxes.cls=}, {boxes.conf=}')
+    
+if plot:
+	plt.figure()
+	array = result.plot()
+	plt.imshow(array)
+	plt.axis('off')
+	plt.show()
+'''
+
 #yolo_trained = '../YOLO-trained/UCIA-YOLOv8n/batch-08_epo-080/weights/best.onnx'
 #yolo_trained = 'YOLO-trained/UCIA-YOLOv8n/batch-08_epo-080/weights/best.onnx'
 yolo_trained = 'YOLO-trained/UCIA-YOLOv8n/batch-08_epo-080/weights/best_ncnn_model'
@@ -51,7 +88,7 @@ INF_TIME = []
 for _ in range(1):
 	t0 = time()
 	# Run inference on 'bus.jpg' with arguments
-	result = model.predict(img_g, conf=0.5, max_det=12)[0]
+	result = model.predict(img_g, conf=0.6, max_det=6)[0]
 	inf_time = time() - t0
 	print(f"Inference2: {1000*inf_time:.1f} ms")
 
@@ -82,19 +119,20 @@ for _ in range(1):
 			name = f'{names[class_id]:6s} '
 			
 			
-			avRGB = np_img[x1:x2, y1:y2, :].mean(axis=0).mean(axis=0)
-			if max(abs(avRGB[0] - avRGB[1]), abs(avRGB[0] - avRGB[2]), abs(avRGB[1] - avRGB[2])) < 15:
-				color = "black"
-			else:
-				col   = avRGB.argmax()
+			means = np_img[x1:x2, y1:y2, :].mean(axis=0).mean(axis=0)
+			color = "black"
+			col   = means.argmax()
+			
+			if means[0] > means[2]and means[1] > means[2]:
+				color='yellow'
+			elif means[col] > 110:
 				color = colors[col]
-            
-			plt.text(y1, x1-5, name + f'{conf:3.2f} ', color=color, size=6,
+			plt.text(y1, x1-5, name + f'{conf:3.2f} ', color=color, size=6, 
 				backgroundcolor='white', alpha=0.5,
 				bbox=dict(boxstyle="square", ec=color, fc=(1., 1, 1)))
 				
 			name = name + f'{color:6s}'
-			print(name, f'{conf:3.2f} ', color, (y1,x2,y2,x1), tuple(avRGB.astype(int)))
+			print(name, f'{conf:3.2f} ', color, (y1,x2,y2,x1), means)
 			
 			plt.plot(Y, X, color=color)
 			plt.title('/'.join(yolo_trained.split('/')[1:]))
