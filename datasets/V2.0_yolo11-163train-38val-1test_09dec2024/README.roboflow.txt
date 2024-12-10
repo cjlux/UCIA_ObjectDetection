@@ -1,8 +1,8 @@
 
-UCIA-IA: Object Detection v2.0 - v1 2024-12-09 9:15pm
+UCIA-IA: Object Detection v2.0 - v3 2024-12-09 10:23pm
 ==============================
 
-This dataset was exported via roboflow.com on December 9, 2024 at 8:17 PM GMT
+This dataset was exported via roboflow.com on December 9, 2024 at 9:24 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -23,6 +23,7 @@ Small-3Dprinted-objects are annotated in YOLOv11 format.
 The following pre-processing was applied to each image:
 * Auto-orientation of pixel data (with EXIF-orientation stripping)
 * Resize to 640x640 (Stretch)
+* Grayscale (CRT phosphor)
 
 No image augmentation techniques were applied.
 

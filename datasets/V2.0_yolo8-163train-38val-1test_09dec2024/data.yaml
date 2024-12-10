@@ -9,6 +9,6 @@ names: ['ball', 'cube', 'star']
 roboflow:
   workspace: ucia
   project: ucia-ia-object-detection-v2.0
-  version: 1
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/ucia/ucia-ia-object-detection-v2.0/dataset/1
+  url: https://universe.roboflow.com/ucia/ucia-ia-object-detection-v2.0/dataset/3
