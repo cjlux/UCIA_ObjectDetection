@@ -1,11 +1,12 @@
-#*.pt
+*.pt
 *.onnx
-#*.bin
+*.bin
 *.tgz
+*.tar
 *.swp
 *.torchscript
 last.pt
-#weights/
+weights/
 runs/
 Sandbox/
 .~loc*
