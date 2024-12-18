@@ -20,7 +20,7 @@ main_color  = ('red', 'green', 'blue')
 class_color = ((80, 145, 255, 250), (240, 150, 100, 250), (255, 255, 255, 250))
 box_color   = ((80, 145, 255, 150), (240, 150, 100, 150), (255, 255, 255, 150))
 label_color = ((255, 255, 255, 250), (0, 0, 0, 250), (0, 0, 0, 250))
-label_width = (45, 55, 48)
+label_width = (47, 56, 48)
 
 app = Flask(__name__)
 
@@ -34,7 +34,7 @@ def generate_frames():
 		img_g  = img.convert("L")
 
 		# Run YOLO inference on the frame
-		results = model.predict(img_g, imgsz=640, classes=[0,1,2], conf=0.5, max_det=6)		
+		results = model.predict(img_g, imgsz=640, classes=[0,1,2], conf=confidence, max_det=maxdetect)		
 		boxes   = results[0].boxes
 
 		for class_id, conf, xyxy, in zip(boxes.cls, boxes.conf, boxes.xyxy):
@@ -79,18 +79,28 @@ if __name__ == '__main__':
 	import argparse, sys
 	
 	parser = argparse.ArgumentParser()
-	parser.add_argument('-v', '--version', action="store", dest='version', required=False, default='V1', help="'V1', 'V2' ou 'V2.1'")
-	parser.add_argument('-y', '--yolo', action="store", dest='yolo_version', required=False, default='v8n', help="v8n, v8s, 11n ou 11s")
-	parser.add_argument('-b', '--batch', action="store", dest='batch', required=False, type=int, default='8', help="2, 4, 8, 16, ou 32")
-	parser.add_argument('-e', '--epochs', action="store", dest='epochs', required=False, type=int, default='100', help="20, 40, 60, 80 ou 100")
+	parser.add_argument('-v', '--version', action="store", dest='version', 
+		required=False, default='V1', help="'V1', 'V2' ou 'V2.1'")
+	parser.add_argument('-y', '--yolo', action="store", dest='yolo_ver', 
+		required=False, default='v8n', help="v8n, v8s, 11n ou 11s")
+	parser.add_argument('-b', '--batch', action="store", dest='batch', 
+		required=False, type=int, default='8', help="2, 4, 8, 16, ou 32")
+	parser.add_argument('-e', '--epochs', action="store", dest='epochs', 
+		required=False, type=int, default='100', help="20, 40, 60, 80 ou 100")
+	parser.add_argument('-m', '--maxdetect', action="store", dest='maxdetect', 
+		required=False, type=int, default='6', help="Nombre max d'objets à déttecter.")
+	parser.add_argument('-c', '--confidence', action="store", dest='conf', 
+		required=False, type=float, default='0.6', help="Seuil de confiance pour afficher une détection.")
 	
 	args = parser.parse_args()
-	version = args.version
-	yolo_version = args.yolo_version
-	batch = args.batch
-	epochs = args.epochs
+	version    = args.version
+	yolo_ver   = args.yolo_ver
+	batch      = args.batch
+	epochs     = args.epochs
+	maxdetect  = args.maxdetect
+	confidence = args.conf
 	
-	yolo_weights_path  = f'YOLO-trained-{version}/UCIA-YOLO{yolo_version}/'
+	yolo_weights_path  = f'YOLO-trained-{version}/UCIA-YOLO{yolo_ver}/'
 	yolo_weights_path += f'batch-{batch:02d}_epo-{epochs:03d}/weights/best_ncnn_model'
 	yolo_weights = Path(yolo_weights_path)
 	print(f'Inférences du réseau {yolo_weights}')

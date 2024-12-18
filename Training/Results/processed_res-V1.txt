@@ -2,7 +2,7 @@
 * Sort by 'recall' & 'mAP50-95'
 **************************************************
 
-File <results_yolov8n-V1.txt>
+File <Training/Results/results_yolov8n-V1.txt>
 	Max values -> "max_recall": 1.0, "max_mAP50-90": 0.844
         #meta-params  recall  mAP50-95  fitness
 13  batch-08_epo-080     1.0     0.844    0.859
@@ -10,7 +10,7 @@ File <results_yolov8n-V1.txt>
 14  batch-08_epo-100     1.0     0.839    0.855
 19  batch-10_epo-100     1.0     0.837    0.853
 
-File <results_yolo11n-V1.txt>
+File <Training/Results/results_yolo11n-V1.txt>
 	Max values -> "max_recall": 0.999, "max_mAP50-90": 0.84
         #meta-params  recall  mAP50-95  fitness
 9   batch-04_epo-100   0.999     0.840    0.855
@@ -18,7 +18,7 @@ File <results_yolo11n-V1.txt>
 13  batch-08_epo-080   0.998     0.833    0.849
 34  batch-30_epo-100   0.997     0.831    0.847
 
-File <results_yolov8s-V1.txt>
+File <Training/Results/results_yolov8s-V1.txt>
 	Max values -> "max_recall": 1.0, "max_mAP50-90": 0.853
         #meta-params  recall  mAP50-95  fitness
 34  batch-30_epo-100     1.0     0.853    0.867
@@ -26,7 +26,7 @@ File <results_yolov8s-V1.txt>
 29  batch-20_epo-100     1.0     0.850    0.865
 19  batch-10_epo-100     1.0     0.846    0.861
 
-File <results_yolo11s-V1.txt>
+File <Training/Results/results_yolo11s-V1.txt>
 	Max values -> "max_recall": 1.0, "max_mAP50-90": 0.856
         #meta-params  recall  mAP50-95  fitness
 13  batch-08_epo-080     1.0     0.856    0.870
@@ -38,34 +38,34 @@ File <results_yolo11s-V1.txt>
 * Sort by 'fitness'
 **************************************************
 
-File <results_yolo11s-V1.txt>
-	Max values -> "fitness": 0.87
+File <Training/Results/results_yolov8n-V1.txt>
+	Max values -> "fitness": 0.86
         #meta-params  recall  mAP50-95  fitness
-13  batch-08_epo-080     1.0     0.856    0.870
-14  batch-08_epo-100     1.0     0.856    0.870
-29  batch-20_epo-100     1.0     0.855    0.869
-12  batch-08_epo-060     1.0     0.853    0.867
+18  batch-10_epo-080   0.989     0.845    0.860
+13  batch-08_epo-080   1.000     0.844    0.859
+28  batch-20_epo-080   0.990     0.844    0.859
+12  batch-08_epo-060   0.989     0.843    0.858
 
-File <results_yolo11s-V1.txt>
-	Max values -> "fitness": 0.87
+File <Training/Results/results_yolo11n-V1.txt>
+	Max values -> "fitness": 0.862
         #meta-params  recall  mAP50-95  fitness
-13  batch-08_epo-080     1.0     0.856    0.870
-14  batch-08_epo-100     1.0     0.856    0.870
-29  batch-20_epo-100     1.0     0.855    0.869
-12  batch-08_epo-060     1.0     0.853    0.867
+27  batch-20_epo-060   0.993     0.847    0.862
+23  batch-16_epo-080   0.992     0.845    0.860
+17  batch-10_epo-060   0.998     0.841    0.857
+14  batch-08_epo-100   0.981     0.841    0.856
 
-File <results_yolo11s-V1.txt>
-	Max values -> "fitness": 0.87
+File <Training/Results/results_yolov8s-V1.txt>
+	Max values -> "fitness": 0.867
         #meta-params  recall  mAP50-95  fitness
-13  batch-08_epo-080     1.0     0.856    0.870
-14  batch-08_epo-100     1.0     0.856    0.870
-29  batch-20_epo-100     1.0     0.855    0.869
-12  batch-08_epo-060     1.0     0.853    0.867
+34  batch-30_epo-100   1.000     0.853    0.867
+12  batch-08_epo-060   0.999     0.852    0.866
+24  batch-16_epo-100   1.000     0.851    0.865
+29  batch-20_epo-100   1.000     0.850    0.865
 
-File <results_yolo11s-V1.txt>
+File <Training/Results/results_yolo11s-V1.txt>
 	Max values -> "fitness": 0.87
         #meta-params  recall  mAP50-95  fitness
-13  batch-08_epo-080     1.0     0.856    0.870
-14  batch-08_epo-100     1.0     0.856    0.870
-29  batch-20_epo-100     1.0     0.855    0.869
-12  batch-08_epo-060     1.0     0.853    0.867
+13  batch-08_epo-080   1.000     0.856    0.870
+14  batch-08_epo-100   1.000     0.856    0.870
+9   batch-04_epo-100   0.988     0.856    0.870
+29  batch-20_epo-100   1.000     0.855    0.869
