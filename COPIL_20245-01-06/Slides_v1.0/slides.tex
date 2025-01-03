@@ -916,26 +916,16 @@
     métriques de performance de détection d'objets.\smallskip
     
   \item Programmes Python \fileBF{eval\_YOLOv8.py} et \fileBF{eval\_YOLO11.py} développés 
-    (V1 et V2) pour comparer les versions d’entraînement des réseaux YOLO.\smallskip
+    (V1 et V2) pour èvaluer les versions d’entraînement des réseaux YOLO.\smallskip
+    
   \item $\leadsto$ 4 fichiers résultats (exemple pour V2): \\
     \fileBF{results\_yolov8n-V2.txt},  \fileBF{results\_yolov8s-V2.txt},
     \fileBF{results\_yolo11n-V2.txt},  \fileBF{results\_yolo11s-V2.txt}, 
     contenant chacun les métriques des entraînement pour les différentes valeurs des méta-paramètres.
+
+  \item Programme Python \fileBF{process\_results.py} produit la synthèse des rélustats.\smallskip
+    
   \end{itemize}
-    
-\end{frame}
-%=============================================================
-
-%====== #38 ==================================================
-\begin{frame}{Détection d'objets 3D : Performances des réseaux entraînés}
- 
-  \begin{tcolorbox}[add to width=.7cm, title={Temps d'inférence}]
-    Temps moyen d'inférence sur le PC de calcul (carte Nvidia)
-    
-    \includegraphics[width=.5\textwidth]{images/Temps_moyen_Inférences.png}
-
-    $\leadsto$ Architecture \Chocolate{s} deux fois plus lente que \Chocolate{n}
-  \end{tcolorbox}
     
 \end{frame}
 %=============================================================
@@ -951,6 +941,18 @@
     $\leadsto$ Architecture \Chocolate{s} deux fois plus lente que \Chocolate{n}
   \end{tcolorbox}
     
+\end{frame}
+%=============================================================
+
+%====== #38 ==================================================
+\begin{frame}{Détection d'objets 3D : \\Performances des réseaux entraînés}
+ 
+  {\small Tri \Chocolate{recall} et \Chocolate{mAP50-95} \hspace*{2cm} Tri  \Chocolate{fitness}}
+    
+    \smallskip
+    \hspace*{-1cm}\includegraphics[height=.56\textwidth]{images/Results_recall_mAP50-95_V2.png}
+    \hfill}\includegraphics[height=.56\textwidth]{images/Results_fitness_V2.png}
+
 \end{frame}
 %=============================================================
 

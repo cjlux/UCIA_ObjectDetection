@@ -50,6 +50,7 @@ def main(VER):
         stream_out.write(mess+'\n')   
 
         for version in ('v8n', '11n', 'v8s', '11s'):
+            txt_file = Path(results_dir, f'results_yolo{version}-{VER}.txt')
             mess = f'\nFile <{txt_file}>'
             print(mess, end="")
             stream_out.write(mess)
@@ -69,7 +70,7 @@ def main(VER):
             df2 = df[['#meta-params', 'recall', 'mAP50-95', 'fitness']]
             
             # print the first 4 rows:
-            mess = df1.head(4)
+            mess = df2.head(4)
             print(mess)
             stream_out.write(str(mess)+'\n')
 
