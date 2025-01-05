@@ -550,7 +550,7 @@
     Les neurones sont regroupés en couches pour former un \textbf{Réseaux de Neurones} artificiels (RN) 
     
     \smallskip
-    \includegraphics[width=.4\textwidth]{images/neural_networks-005.png}\hfill\includegraphics[width=.5\textwidth]{images/neural_networks-008.png}
+    \includegraphics[width=.4\textwidth]{images/neural_networks-005-a.png}\hfill\includegraphics[width=.5\textwidth]{images/neural_networks-008-a.png}
 
   \end{tcolorbox}
   
@@ -646,9 +646,10 @@
 \begin{frame}{}
 
   \vfill
-  \center{\Large Étude : entraînement d'un réseau de neurones \\[2mm] YOLO pour la détection de petits objets 3D\\[5mm]
-    \includegraphics[width=.4\textwidth]{images/DetectionObjets.png}
-    }
+  \center{\Large Études : entraînement d'un réseau de neurones \\[2mm] YOLO pour la détection de petits objets 3D\\[5mm]
+    \includegraphics[width=.5\textwidth]{images/DetectionObjets.png}}
+  \vfill
+  Livrables: projet GiHb \href{https://github.com/cjlux/UCIA_ObjectDetection/tree/master}{UCIA\_ObjectDetection}
   \vfill
 
 \end{frame}
@@ -663,7 +664,7 @@
 
     Objectifs :
     \begin{itemize}
-    \item<1-> Faisabilité d'entraîner un réseau YOLO à détecter les objets 3D du projet UCIA
+    \item<1-> Faisabilité d'entraîner un réseau YOLO à détecter les petits objets 3D du projet UCIA
     \item<2-> Tester l'exploitation sur RPi4 d'un réseau YOLO entraîné.
     \end{itemize}
     \medskip
@@ -688,7 +689,7 @@
     Objectifs :
     \begin{itemize}
     \item<1-> Consolidation de l'entraînement de réseaux YOLO dans les conditions matérielles du CDC du projet UCIA
-    \item<2-> Visualisation à distance (navigateur WEB)
+    \item<2-> Visualisation à distance (navigateur WEB, bureau à distance)
     \item<3-> Prototypage Python du déplacement du Thymio.
     \end{itemize}
     \medskip
@@ -739,7 +740,7 @@
   
   \begin{tcolorbox}[title=Annotation des images (v1)]
     {\small Images annotées sur le site Roboflow \\
-      $\leadsto$ projet \href{https://universe.roboflow.com/ucia/ucia-ia-object-detection}{ucia-ia-object-detection}
+      $\leadsto$ projet \href{https://universe.roboflow.com/ucia/ucia-ia-object-detection/dataset/4}{ucia-ia-object-detection}
     }
     
      \medskip\includegraphics[width=.9\textwidth]{images/Roboflow_datasets_v1_dark.png}
@@ -769,46 +770,47 @@
   
   \begin{tcolorbox}[title={Réseau de neurones \textbf{YOLO} ({\em You Only Look Once})}]
     \begin{itemize}
-      \item Réseau de neurones populaire de \textbf{détection d'objets} et de \textbf{segmentation} d'images.
-      \item Lancé en 2015, très utilisé (rapidité et précision).
-      \item Réseaux \textbf{pré-entraînés} avec les images du WEB :
+      \item<1-> Réseau de neurones populaire : \textbf{détection d'objets}, \textbf{segmentation}, \textbf{détection pose}...
+      \item<1-> Lancé en 2015, très utilisé (rapidité et précision).
+      \item<2-> Réseau \textbf{pré-entraîné} avec les images du WEB :
         \begin{itemize}
-        \item Détection, Segmentation \& Pose $\leadsto$ \href{https://paperswithcode.com/dataset/coco}{MS-COCO} (328000 images, 80 classes d'objets)
+        \item Détection, Segmentation \& Pose $\leadsto$ \href{https://paperswithcode.com/dataset/coco}{MS-COCO}\\
+          (328000 images, 80 classes d'objets)
         \item Classification $\leadsto$ ImageNet (plus d'un million d'images)
         \end{itemize}
-      \item Les versions de YOLO sont sur le site Ultralytics : \href{https://docs.ultralytics.com/fr}{docs.ultralytics.com/fr}
+      \item<3-> Les versions de YOLO sont sur le site Ultralytics : \href{https://docs.ultralytics.com/fr}{docs.ultralytics.com/fr}
     \end{itemize}
+  \end{tcolorbox}
+    
+\end{frame}
+%=============================================================
+
+%====== #30 ==================================================
+\begin{frame}{Détection d'objets 3D : réseau de neurones YOLO}
+  
+  \begin{tcolorbox}[height=7cm, title={Versions du réseau YOLO retenues pour l'étude}]
+    \begin{itemize}
+    \item \textbf{YOLOv8} : version aboutie, stable, parfaitement connue. \smallskip
+    \item \textbf{YOLO11} : pour les dernières innovations. \smallskip
+      \only<2->{
+      \item 5 versions de complexité croissante {\bf n}, {\bf s}, {\bf m}, {\bf l} et {\bf x} : \\[2mm]
+        \only<2,4,5>{\hspace{-5mm}\includegraphics[width=1.\textwidth]{images/YOLO_nsmlx.png}\\}
+        \only<3>{\includegraphics[width=\textwidth]{images/YOLO11_architectures.png}\\}
+        \only<4,5>{$\leadsto$ Les versions {\bf n} et {\bf s} sont retenues (cible RPi4)\\}
+        \only<5>{$\leadsto$ 4 réseaux utilisés\\
+          \fileBF{YOLOv8n}, \fileBF{YOLOv8s}, \fileBF{YOLO11n}, \fileBF{YOLO11s}}
+        }
+    \end{itemize}
+    
   \end{tcolorbox}
     
 \end{frame}
 %=============================================================
 
 %====== #31 ==================================================
-\begin{frame}{Détection d'objets 3D : réseau de neurones YOLO}
-  
-  \begin{tcolorbox}[height=7cm, add to width=.7cm, title={Versions du réseau YOLO retenues pour l'étude}]
-    \begin{itemize}
-    \item \textbf{YOLOv8} : version aboutie, stable, parfaitement connue. \smallskip
-    \item \textbf{YOLO11} : inclut les dernières innovations. \smallskip
-      \only<2->{
-      \item 5 versions de complexité croissante {\bf n}, {\bf s}, {\bf m}, {\bf l} et {\bf x} : \\[2mm]
-        \only<2,4>{\hspace{-5mm}\includegraphics[width=1.\textwidth]{images/YOLO_nsmlx.png}\\}
-        \only<3>{\includegraphics[width=\textwidth]{images/YOLO11_architectures.png}\\}
-        \only<4>{$\leadsto$ Les versions {\bf n} et {\bf s} sont retenues (cible RPi4) :\\
-        \center{YOLOv8n, YOLOv8s, YOLO11n, YOLO11s}
-        }
-      }
-    \end{itemize}
-    
-  \end{tcolorbox}
-    
-\end{frame}
-%=============================================================
-
-%====== #32 ==================================================
 \begin{frame}{Détection d'objets 3D : entraînement du réseau YOLO}
   
-  \begin{tcolorbox}[add to width=.7cm, title={Choix des méta-paramètres d’entraînement}]
+  \begin{tcolorbox}[title={Choix des méta-paramètres d’entraînement}]
     Méta-paramètres \Chocolate{batch} et \Chocolate{epochs}
 
     {\tiny étude v1}\\[1mm]
@@ -822,10 +824,10 @@
 \end{frame}
 %=============================================================
 
-%====== #33 ==================================================
+%====== #32 ==================================================
 \begin{frame}{Détection d'objets 3D : entraînement du réseau YOLO}
   
-  \begin{tcolorbox}[add to width=.7cm, title={Choix des paramètres d’entraînement}]
+  \begin{tcolorbox}[title={Choix des paramètres d’entraînement}]
     Paramètres \Chocolate{imgz}, \Chocolate{pretrained} et \Chocolate{seed}:\\[5mm]
    \includegraphics[width=\textwidth]{images/ChoixParam.png}
   \end{tcolorbox}
@@ -833,23 +835,23 @@
 \end{frame}
 %=============================================================
 
-%====== #34 ==================================================
+%====== #33 ==================================================
 \begin{frame}{Détection d'objets 3D : entraînement du réseau YOLO}
   
   {\small La combinaison des méta-paramètres donne de nombreux entraînements à stocker :\\
-  4 x 7 x 5 = 140 entraînements pour l'étude v1, 100 pour l'étude v2.}
+  4 x 7 x 5 = 140 entraînements pour l'étude V1, 100 pour l'étude V2.}
   
   \only<2->{
-    \begin{tcolorbox}[add to width=.7cm, title={Nommage des dossiers d'entraînement}]
+    \begin{tcolorbox}[title={Nommage des dossiers d'entraînement (exemple V2)}]
     \includegraphics[width=\textwidth]{images/Regle_nommage.png}
 
     {\small   
       \bfdarkchoco{vvv} $\leadsto$ version du réseau YOLO : (\Chocolate{v8n}, \Chocolate{v8s}, \Chocolate{11n}, \Chocolate{11s})
               
-      \bfdarkchoco{BB} $\leadsto$ valeur du méta-paramètre \Chocolate{batch} : 
+      \bfdarkchoco{BB} $\leadsto$ méta-paramètre \Chocolate{batch} : 
       (\Chocolate{02}, \Chocolate{04}, \Chocolate{08}, \Chocolate{16}, \Chocolate{32})
               
-      \bfdarkchoco{EEE} $\leadsto$ valeur du méta-paramètre \Chocolate{epochs} : 
+      \bfdarkchoco{EEE} $\leadsto$ méta-paramètre \Chocolate{epochs} : 
       (\Chocolate{020}, \Chocolate{040}, \Chocolate{060}, \Chocolate{080}, \Chocolate{100})
     }
     \end{tcolorbox}
@@ -857,22 +859,19 @@
 
   \only<3->{
     \begin{tcolorbox}[add to width=.7cm, title={Programmes Python d'entraînement des réseaux YOLO}]
-      
-      \fileBF{train\_YOLOv8.py} et  \fileBF{train\_YOLO11.py} développés\\
-             {\small pour l'étude V1 puis V2 (\href{https://github.com/cjlux/UCIA_ObjectDetection/tree/master}{github.com/cjlux/UCIA\_ObjectDetection}).}
-
+      \fileBF{train\_YOLOv8.py} et  \fileBF{train\_YOLO11.py} développés pour l'étude V1, complétés pour V2.
     \end{tcolorbox}
     }
     
 \end{frame}
 %=============================================================
 
-%====== #35 ==================================================
+%====== #34 ==================================================
 \begin{frame}{Détection d'objets 3D : entraînement du réseau YOLO}
   
   Les entraînements sont faits sur un PC équipé d'une carte graphique \textbf{Nvidia Quadro TRX8000}.
 
-  \begin{tcolorbox}[title={Contenu des dossiers\\ \textbf{UCIA-YOLOvvv/batch-BB\_epo-EEE/}}, add to width=.7cm, height=60mm]
+  \begin{tcolorbox}[title={Contenu des dossiers d'entraînement\\ \textbf{UCIA-YOLOvvv/batch-BB\_epo-EEE/}}, height=60mm]
     
     \begin{itemize} 
     \item<2-> Extraits des images d'entraînement\\
@@ -880,9 +879,32 @@
     \item<4-> Résultats avec les images de validation  \\
       \only<5>{\vspace*{-2.5cm}\hspace*{5.8cm}\includegraphics[height=.5\textwidth]{images/Exple_image_val_v2.png}}
     \item<6-> Fichier \fileBF{confusion\_matrix.png} : matrice de confusion \\
-      \only<7>{\vspace*{-5cm}\hspace*{1.5cm}\includegraphics[height=.8\textwidth]{images/ConfusionMatrix_v2.png}}
+      \only<7>{\vspace*{-5.5cm}\hspace*{1.cm}\includegraphics[height=.85\textwidth]{images/ConfusionMatrix_v2.png}}
     \item<8-10> Fichier \fileBF{results.png} : tracé des statistiques et métriques d'entraînement\\
-      \only<9>{\vspace*{-4.6cm}\hspace*{-1.8cm}\includegraphics[width=1.2\textwidth]{images/Metrics_v2.png}}
+      \only<9>{\vspace*{-4.6cm}\hspace*{-1.8cm}\includegraphics[width=1.3\textwidth]{images/Metrics_v2.png}}
+    \end{itemize}
+    
+  \end{tcolorbox}
+    
+\end{frame}
+%=============================================================
+
+%====== #35 ==================================================
+\begin{frame}{Détection d'objets 3D : entraînement du réseau YOLO}
+  
+  \begin{tcolorbox}[title={Contenu des dossiers des poids\\ \textbf{UCIA-YOLOvvv/batch-BB\_epo-EEE/weights}}, height=68mm]
+    \begin{itemize}
+    \item<1-> \fileBF{best.pt} : fichier binaire des poids du réseau entraîné \\(au format \Chocolate{pytortch}).\smallskip
+    \item<2-> Formats optimisés générés pour RPi4 :
+      \visible<2->{
+        \begin{itemize}
+        \item \fileBF{best.onnx} : poids du réseau entraîné au format \href{https://docs.ultralytics.com/fr/integrations/onnx/}{ONNX}
+        \item \fileBF{best.ncmm} : poids du réseau entraîné au format \href{https://docs.ultralytics.com/fr/integrations/ncnn/}{NCNN}
+        \end{itemize}
+        \smallskip
+        }
+    \item<3-> Taille des fichiers binaires des poids des réseaux YOLO
+      \only<3->{\\[1mm]\hspace*{1cm}\includegraphics[width=.7\textwidth]{images/Taille_fichiers_poids.png}}
     \end{itemize}
     
   \end{tcolorbox}
@@ -891,52 +913,33 @@
 %=============================================================
 
 %====== #36 ==================================================
-\begin{frame}{Détection d'objets 3D : entraînement du réseau YOLO}
-  
-  \begin{tcolorbox}[title={Contenu des dossiers\\ \textbf{UCIA-YOLOvvv/batch-BB\_epo-EEE/weights}}, add to width=.7cm]
-    \begin{itemize}
-    \item \fileBF{best.pt} : fichier binaire des poids du réseau entraîné (au format \Chocolate{pytortch}).
-    \item Formats optimisés pour RPi4 :
-      \begin{itemize}
-      \item \fileBF{best.onnx} : poids du réseau entraîné au format \href{https://docs.ultralytics.com/fr/integrations/onnx/}{ONNX}
-      \item \fileBF{best.ncmm} : poids du réseau entraîné au format \href{https://docs.ultralytics.com/fr/integrations/ncnn/}{NCNN}
-      \end{itemize}
-    \end{itemize}
-    
-  \end{tcolorbox}
-    
-\end{frame}
-%=============================================================
-
-%====== #37 ==================================================
-\begin{frame}{Détection d'objets 3D : \\Performances des réseaux entraînés}
+\begin{frame}{Détection d'objets 3D : Performances entraînements}
 
   \begin{itemize}
   \item Le module Python \textbf{ultralytics} fournit des fonctions pour évaluer les
-    métriques de performance de détection d'objets.\smallskip
+    indicateurs de performance de détection d'objets.\smallskip
     
-  \item Programmes Python \fileBF{eval\_YOLOv8.py} et \fileBF{eval\_YOLO11.py} développés 
-    (V1 et V2) pour èvaluer les versions d’entraînement des réseaux YOLO.\smallskip
+  \visible<2->{\item Programmes \fileBF{eval\_YOLOv8.py} et \fileBF{eval\_YOLO11.py} développés 
+    (V1 et V2) pour évaluer les différentes versions d’entraînement des réseaux YOLO.\smallskip}
     
-  \item $\leadsto$ 4 fichiers résultats (exemple pour V2): \\
+  \visible<3->{\item $\leadsto$ 4 fichiers résultats (exemple pour V2): \\
     \fileBF{results\_yolov8n-V2.txt},  \fileBF{results\_yolov8s-V2.txt},
     \fileBF{results\_yolo11n-V2.txt},  \fileBF{results\_yolo11s-V2.txt}, 
-    contenant chacun les métriques des entraînement pour les différentes valeurs des méta-paramètres.
-
-  \item Programme Python \fileBF{process\_results.py} produit la synthèse des rélustats.\smallskip
+    contenant chacun les valeurs des indicateurs de performance pour les différentes valeurs des méta-paramètres.}
     
   \end{itemize}
     
 \end{frame}
 %=============================================================
 
-%====== #39 ==================================================
-\begin{frame}{Détection d'objets 3D : Performances des réseaux entraînés}
+%====== #37 ==================================================
+\begin{frame}{Détection d'objets 3D : Performances entraînements}
   
-  \begin{tcolorbox}[title={Précision des réseaux entraînés}]
-    Temps moyen d'inférence sur le PC de calcul (carte Nvidia)
+  \begin{tcolorbox}[title={Temps moyen d'inférence}]
+
+    Pour info, sur le PC de calcul (carte {\em Nvidia Quadro TRX8000})
     
-    \includegraphics[width=.5\textwidth]{images/Temps_moyen_Inférences.png}
+    \center\includegraphics[width=.5\textwidth]{images/Temps_moyen_Inférences.png}
 
     $\leadsto$ Architecture \Chocolate{s} deux fois plus lente que \Chocolate{n}
   \end{tcolorbox}
@@ -945,14 +948,53 @@
 %=============================================================
 
 %====== #38 ==================================================
-\begin{frame}{Détection d'objets 3D : \\Performances des réseaux entraînés}
+\begin{frame}{Détection d'objets 3D : Performances entraînements}
  
-  {\small Tri \Chocolate{recall} et \Chocolate{mAP50-95} \hspace*{2cm} Tri  \Chocolate{fitness}}
-    
-    \smallskip
-    \hspace*{-1cm}\includegraphics[height=.56\textwidth]{images/Results_recall_mAP50-95_V2.png}
-    \hfill}\includegraphics[height=.56\textwidth]{images/Results_fitness_V2.png}
+  \begin{tcolorbox}[title=Indicateurs de précision détection des réseaux détecteur, add to width=.7cm, height=68mm]
+    {\small
+      \fileBF{process\_results.py} $\leadsto$ synthèse des évaluation des réseaux entraînés.
+      \begin{itemize}
+      \item<2-> \Chocolate{recall} : capacité du réseau à identifier toutes les objets dans les images.
+      \item<3-> \Chocolate{mAP50} : précision moyenne pour un seuil d'{\em intersection sur union}
+        \href{https://medium.com/@prathameshamrutkar3/the-complete-guide-to-object-detection-evaluation-metrics-from-iou-to-map-and-more-1a23c0ea3c9d}{IoU} de 0.5 
+        (détections "faciles").\\
+        \only<4>{\vspace*{-2cm}\includegraphics[width=.7\textwidth]{images/IoU-4.png}}
+        \only<5>{\vspace*{-2cm}\includegraphics[width=.9\textwidth]{images/IoU-3.png}}
+      \item<6-> \Chocolate{mAP50-95} : précision moyenne pour différents seuils \textbf{IoU} allant de 0.5 à 0.95
+        (différents niveaux de difficulté de détection).
+      \item<7-> \Chocolate{fitness} = 0.1*\Chocolate{mAP50} + 0.9*\Chocolate{mAP50-95}
+      \end{itemize}
+    }
+    \only<8> {\vspace*{-6.8cm}\includegraphics[width=.75\textwidth]{images/Results_recall_mAP50-95_V2.png}}
+  \end{tcolorbox}
+  
+\end{frame}
+%=============================================================
 
+%====== #39 ==================================================
+\begin{frame}{Détection d'objets 3D : Performances entraînements}
+ 
+  \begin{tcolorbox}[title={Configurations d'entraînement à tester sur RPi4}]
+    
+    Meilleures performance :
+
+      \begin{itemize}
+      \item \fileBF{UCIA-YOLOv8n/batch-04\_epo-100} 
+      \item \fileBF{UCIA-YOLOv8s/batch-02\_epo-080}
+      \item \fileBF{UCIA-YOLO11n/batch-02\_epo-100}
+      \item \fileBF{UCIA-YOLO11s/batch-04\_epo-080} 
+      \end{itemize}
+
+      \medskip
+      \visible<2>{
+      On retrouve des tendances connues :
+      \begin{itemize}
+      \item \Chocolate{batch\_size} petit $\leadsto$ favorise en entraînement de qualité, 
+      \item \Chocolate{epochs} elévé $\leadsto$ compense le petit nombre d'images fournies à chaque entraînement.
+      \end{itemize}
+      }
+  \end{tcolorbox}
+    
 \end{frame}
 %=============================================================
 
@@ -961,10 +1003,130 @@
 \subsection{Configuration RPi4-UCIA}
 
 %====== #40 ==================================================
+\begin{frame}{}
+
+  \vfill
+  \center{\Large Étude : Exploitation sur RPi4 des réseaux entraînés YOLO selon le CDC UCIA\\[5mm]
+    \includegraphics[width=.6\textwidth]{images/V2-Camera-Thymio.png}
+    }
+  \vfill
+
+\end{frame}
+%=============================================================
+
+%====== #41 ==================================================
 \begin{frame}{Configuration RPi4-UCIA}
   
-  \begin{tcolorbox}[add to width=.7cm, title={Études pour le projet UCIA}]
-    Deux études menées en novembre-décembre 2024:
+  \begin{tcolorbox}[title={Configuration RPi4-UCIA}, height=68mm]
+     \begin{itemize}
+      \item<1-> Carte micro-SD rapide de 64 GB
+      \item<2-> Flash carte micro-SD :\\système d'exploitation \textbf{Rapberry PI OS (64-bit)}\\
+        \only<3>{\vspace*{-3cm}\includegraphics[height=.6\textwidth]{images/PiImager.png}}
+      \item<4-> Point d'accès Wifi [SSID : \Chocolate{RPi4-UCIA}, clef :\Chocolate{poppy!station}]\\
+        \only<5>{\vspace*{-3cm}\includegraphics[height=.7\textwidth]{images/Ws_WiFi_suivant-2.png}}
+      \item<6-> Compte : \comBF{ucia}, mdp : \comBF{poppy!station}\\
+        ouvert automatiquement au démarrage de la RPi4
+      \item<7-> Environnement Virtuel Python (EVP) \comBF{vision}\\
+        activé automatiquement à l'ouverture du compte \comBF{ucia}
+      \item<8-> Arborescence des réseaux YOLO entraînés copiée sur la carte micro-SD.\\
+        \only<9>{\vspace*{-7cm}\includegraphics[height=.8\textwidth]{images/RPi4-UCIA_YOLOs-tree.png}}
+      \end{itemize}
+    
+  \end{tcolorbox}
+    
+\end{frame}
+%=============================================================
+
+%====== #42 ==================================================
+\begin{frame}{Configuration RPi4-UCIA}
+  
+  \begin{tcolorbox}[title={Programmes Python d'exploitation des réseaux YOLO}, add to width=.7cm, height=68mm]
+    {\small
+      \begin{itemize}
+      \item<1-> 4 programmes Python \fileBF{detect\_camera-n.py} (n=1,2,3,4) :
+      \item<2-> \fileBF{detect\_camera-1.py} : images (N\&B) des détections du réseau YOLO choisi 
+        + infos élémentaires sur les détections\\
+        \only<3> {\vspace*{-3.5cm}\includegraphics[width=.7\textwidth]{images/detect_camera-1_a.png}}
+        \only<4> {\vspace*{-3.5cm}\hspace*{-15mm}\includegraphics[width=1.2\textwidth]{images/detect_camera-1_b.png}}
+      \item<5-> \fileBF{detect\_camera-2.py} : images (couleur) des détections du réseau YOLO choisi 
+        + infos détaillées sur les détections\\
+        \only<6> {\vspace*{-4cm}\includegraphics[width=.7\textwidth]{images/detect_camera-2_a.png}}
+        \only<7> {\vspace*{-4cm}\hspace*{-15mm}\includegraphics[width=1.2\textwidth]{images/detect_camera-2_b.png}}
+      \item<8-> \fileBF{detect\_camera-3.py} : serveur à l'adresse \Chocolate{10.99.99.1:5000/video}\\
+        en attente de la connexion d'un navigateur WEB sur cette URL.
+        \begin{itemize}
+        \item Connexion sur \Chocolate{10.99.99.1:5000/quit} $\leadsto$ terminer l'application\\
+        \item Connexion sur \Chocolate{10.99.99.1:5000/halt} $\leadsto$ Shutdown de la carte RPi4 (permet l'extinction)
+        \end{itemize}
+        \only<9>  {\vspace*{-6cm}\includegraphics[width=.9\textwidth]{images/detect_camera-3_a.png}}
+        \only<10> {\vspace*{-7.5cm}\includegraphics[width=.65\textwidth]{images/detect_camera-3_b.png}}
+        \only<11> {\vspace*{-6cm}\includegraphics[width=.9\textwidth]{images/detect_camera-3_c.png}}
+      \item<13> Temps d'inférence du réseau \fileBF{YOLOv8n} < ~0.5 seconde
+      \end{itemize}
+    }
+    
+  \end{tcolorbox}
+    
+\end{frame}
+%=============================================================
+
+%====== #43 ==================================================
+\begin{frame}{Configuration RPi4-UCIA}
+  
+  \begin{tcolorbox}[title=Exploitation des réseaux YOLO : Bureau à distance (VNC), add to width=.7cm, height=68mm]
+    {\small
+      \begin{itemize}
+      \item<1-> Démarrage RPi4 $\leadsto$ lancement de \fileBF{detect\_camera-3.py}\\
+        en attente de l'ouverture de \Chocolate{10.99.99.1:5000/video} par un navigateur... 
+        \Chocolate{CTRL + C} pour quitter et fermer le terminal.
+      \item<2-> Double clic icone [Ai] $\leadsto$ lancement de \fileBF{detect\_camera-3.py} : \\
+        en attente de l'ouverture de \Chocolate{10.99.99.1:5000/video} par un navigateur... 
+        \Chocolate{CTRL + C} pour quitter et fermer le terminal.\\
+        \only<3>  {\vspace*{-2.5cm}\includegraphics[width=.9\textwidth]{images/Bureau-distance-iconeAI.png}}
+      \item<4-> Connexion sur \Chocolate{10.99.99.1:5000/quit} $\leadsto$ terminer l'application\\
+      \item<4-> Connexion sur \Chocolate{10.99.99.1:5000/halt} $\leadsto$ Shutdown de la carte RPi4 (permet l'extinction)
+      \end{itemize}
+    }
+  \end{tcolorbox}
+    
+\end{frame}
+%=============================================================
+
+%====== #44 ==================================================
+\begin{frame}{Configuration RPi4-UCIA}
+  
+  \begin{tcolorbox}[title=Exploitation des réseaux YOLO : Navigateur web, add to width=.7cm, height=68mm]
+    {\small
+      \begin{itemize}
+      \item<1-> Démarrage RPi4 $\leadsto$ lancement de \fileBF{detect\_camera-3.py}\\
+        en attente sur \Chocolate{10.99.99.1:5000/video} par un navigateur... 
+      \item<2-> Connexion navigateur sur \Chocolate{10.99.99.1:5000/video}\\
+        $\leadsto$ images (couleur) des détections du réseau YOLO\\
+        \only<3> {\vspace*{-3cm}\includegraphics[width=.65\textwidth]{images/detect_camera-3_b.png}}
+      \item<4-> Connexion navigateur sur \Chocolate{10.99.99.1:5000/quit}\\
+        $\leadsto$ terminer l'application
+      \item<4-> Connexion navigateur sur \Chocolate{10.99.99.1:5000/halt}\\
+        $\leadsto$ Shutdown de la carte RPi4 (permet l'extinction)
+      \end{itemize}
+    }
+    
+  \end{tcolorbox}
+    
+\end{frame}
+%=============================================================
+
+%====== #45 ==================================================
+\begin{frame}{Configuration RPi4-UCIA}
+  
+  \begin{tcolorbox}[title=Exploitation des réseaux YOLO : Navigateur web, add to width=.7cm, height=68mm]
+    {\small
+      \begin{itemize}
+      \item<2-> Connexion sur \Chocolate{10.99.99.1:5000/video} $\leadsto$ images (couleur) des détections du réseau YOLO\\
+        \only<3> {\vspace*{-3cm}\includegraphics[width=.6\textwidth]{images/detect_camera-3_b.png}}
+      \item<4-> Connexion sur \Chocolate{10.99.99.1:5000/quit} $\leadsto$ terminer l'application
+      \item<4-> Connexion sur \Chocolate{10.99.99.1:5000/halt} $\leadsto$ Shutdown de la carte RPi4 (permet l'extinction)
+      \end{itemize}
+    }
     
   \end{tcolorbox}
     
@@ -983,53 +1145,33 @@
 \section{References}
 
 %=============================================================
-\begin{frame}{Videos}
-
-  \hspace*{-3mm}
-  \href{https://youtu.be/trWrEWfhTVg}{\includegraphics[width=.5\textwidth]{images/video-LeDeepLearning.png}}
-  \hfill%
-  \href{https://www.3blue1brown.com/lessons/neural-networks}{\includegraphics[width=.5\textwidth]{images/video-NeuralNetworks.png}}\\[-2mm]
-
-  {\tiny\hspace*{-2mm}\href{run:./videos/Le deep learning - YouTube.webm}{1/ Local: "Le deep learning - YouTube.webm"}%
-    \hfill%
-    \href{run:./videos/But what is a neural network.webm}{2/ local : "But what is a neural network.webm"}}\\[2mm]
-            
-  \hspace*{-3mm}
-  \href{https://www.3blue1brown.com/lessons/gradient-descent}{\includegraphics[width=.5\textwidth]{images/video-HowMachineLearn.png}}
-  \hfill
-  \href{https://www.3blue1brown.com/lessons/backpropagation}{\includegraphics[width=.5\textwidth]{images/video-BackPropagation.png}}\\[-2mm]
-  
-  {\tiny\hspace*{-3mm}\href{run:./videos/Gradient descent how neural networks learn.webm}{3/ Local: "Gradient descent how neural networks learn.webm"}%
-    \hfill%
-    \href{run:./videos/What is backpropagation really doing .webm}{4/ Local: "What is backpropagation really doing .webm"}}\\[2mm]
-  
-\end{frame}
-%=============================================================
-
-%=============================================================
 \begin{frame}{References}
   
   \noindent\fontsize{8}{8}\selectfont{
 
-    \hspace*{-4mm}\hypertarget{refRusselNorvig}{[1] }%
-    {\em Artificial Intelligence: A Modern Approach (4th Edition)}, By Stuart Russell \& Peter Norvig. 
-    Pearson, 2020. ISBN 978-0134610993. \href{http://aima.cs.berkeley.edu/}{aima.cs.berkeley.edu}\\[3mm]
-    {\em Intelligence artificielle -- Une approche moderne -- 4e éd.}, By Stuart Russell \& Peter Norvig. 
-    Translated by L. Miclet, F. Popineau, \& C. Cadet. Paris: Pearson Education France, 2021. ISBN 978-2326002210.\\[5mm]
+    \begin{itemize}
+      \item UCIA Cahier des charges : Robot ROSA avec Intelligence Artificielle OpenSource et OpenHardware \smallskip
 
+      \item Page du site roboflow pour l’accès publique au jeu de données de l’étude :\\
+        \href{https://universe.roboflow.com/ucia/ucia-ia-object-detection/dataset/2}
+             {https://universe.roboflow.com/ucia/ucia-ia-object-detection/dataset/2} \smallskip
 
-    \hspace*{-4mm}\hypertarget{refStrongWeak-AI}{[2] }%
-    {\em What is artificial intelligence (AI), and what is the difference between general AI and narrow AI?}, Kris Hammond, 2015\\
-    \href{https://www.computerworld.com/article/2906336/what-is-artificial-intelligence.html}
-         {www.computerworld.com/article/2906336/what-is-artificial-intelligence.html}\\[5mm]
+      \item «Ultralytics YOLO11: Faster Than You Can Imagine!», Ankan Ghosh, October 8, 2024\\
+        \href{https://learnopencv.com/yolo11/}{https://learnopencv.com/yolo11/} \smallskip
+         
+      \item Article WikiPédia sur les indicateurs de précision:\\
+        \href{https://fr.wikipedia.org/wiki/Pr\%C3\%A9cision\_et\_rappel}
+             {https://fr.wikipedia.org/wiki/Pr\%C3\%A9cision\_et\_rappel} \smallskip
 
-    \hspace*{-4mm}\hypertarget{StanfordEncyc}{[3] }%
-    {\em Stanford Encyclopedia of Philosophy},
-    \href{https://plato.stanford.edu/entries/artificial-intelligence}
-         {plato.stanford.edu/entries/artificial-intelligence}\\[5mm]
+      \item «Analyse approfondie des mesures de performance», site Ultralytics\\
+        \href{https://docs.ultralytics.com/fr/guides/yolo-performance-metrics/}
+             {https://docs.ultralytics.com/fr/guides/yolo-performance-metrics/} \smallskip
 
-    \hspace*{-4mm}\hypertarget{DeepLeraning}{[4] }%
-    {\em  Deep Learning.}, Goodfellow, Ian; Bengio, Yoshua; Courville, Aaron (2016), MIT Pres, ISBN 9780262035613
+      \item «The Complete Guide to Object Detection Evaluation Metrics: From IoU to mAP and More»\\
+        \href{https://medium.com/@prathameshamrutkar3/the-complete-guide-to-object-detection-evaluation-metrics-from-iou-to-map-and-more-1a23c0ea3c9d}
+             {https://medium.com/@prathameshamrutkar3/the-complete-guide-to-object-detection-evaluation-metrics-from-iou-to-map-and-more-1a23c0ea3c9d}
+
+    \end{itemize}
   }
   
 \end{frame}
@@ -1038,7 +1180,7 @@
 
 \section{Annexes}
 
-%====== #41 ==================================================
+%====== #43 ==================================================
 \begin{frame}{}
 
   \vfill
@@ -1050,7 +1192,7 @@
 
 \subsection{Supervised learning}
 
-%====== #42 ==================================================
+%====== #44 ==================================================
 \begin{frame}{}
 
   {\small
@@ -1064,7 +1206,7 @@
 \end{frame}
 %=============================================================
 
-%====== #43 ==================================================
+%====== #45 ==================================================
 \begin{frame}{}
   \includegraphics[width=\textwidth]{./images/NetworkTraining_2.png}
   {\small
@@ -1078,6 +1220,16 @@
 
 \end{document}
 
+
+      \item<12-> \fileBF{detect\_camera-3.py} : lancement du serveur web à l'adresse \Chocolate{http://10.99.99.1:5000/video}...\\
+        en attente de la connexion d'un navigateur WEB sur cette URL et du lancement du programme de pilotage Thymio.\\
+        \only<9> {\vspace*{-5cm}\includegraphics[width=.9\textwidth]{images/detect_camera-3_a.png}}
+        \only<10> {\vspace*{-6.5cm}\includegraphics[width=.7\textwidth]{images/detect_camera-3_b.png}}
+        \only<11> {\vspace*{-5cm}\includegraphics[width=.9\textwidth]{images/detect_camera-3_c.png}}
+
+
+
+        
 [ML-01] – JLC  
 « Machine Learning for Humans » 
 https://medium.com/machine-learning-for-humans
@@ -1152,7 +1304,7 @@ IBM Watson https://www.ibm.com/watson/products-services
 
 \subsection{Activation functions SoftMax}
 
-%====== #44 ==================================================
+%====== #46 ==================================================
 \begin{frame}{Computing aspects}
   \vspace*{-2mm}
 
@@ -1186,7 +1338,7 @@ IBM Watson https://www.ibm.com/watson/products-services
 
 \subsection{One-hot coding}
 
-%====== #45 ==================================================
+%====== #47 ==================================================
 \begin{frame}{Computing aspects [Classification]}
 
 \begin{tcolorbox}[title={\em One-hot} coding of labels]
@@ -1216,7 +1368,7 @@ IBM Watson https://www.ibm.com/watson/products-services
 \end{frame}
 %=============================================================
 
-%====== #46 ==================================================
+%====== #48 ==================================================
 \begin{frame}{Computing aspects [Classification]}
 
 \begin{tcolorbox}[title=Error function: {\em Cross entropy error}]
@@ -1233,7 +1385,7 @@ IBM Watson https://www.ibm.com/watson/products-services
 
 \subsection{Optimisation}
 
-%====== #47 ==================================================
+%====== #49 ==================================================
 \begin{frame}{Computing aspects}
 
 \begin{tcolorbox}[title=Optimization and {\em Back Propagation}]
@@ -1261,7 +1413,7 @@ IBM Watson https://www.ibm.com/watson/products-services
 
 \subsection{Back-propgation algorithm}
 
-%====== #48 ==================================================
+%====== #50 ==================================================
 \begin{frame}{Computing aspects}
 
   {\small Visualization of iterations of gradient descent algorithms for an very-simple loss function with only 2 variables:}\\[2mm]

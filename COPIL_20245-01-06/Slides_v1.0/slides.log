@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.15)  3 JAN 2025 23:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.9.15)  5 JAN 2025 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1791,7 +1791,7 @@ Overfull \hbox (28.6828pt too wide) in paragraph at lines 112--112
  [][]  
  []
 
-<images/CC-BY-SA.jpeg, id=215, 323.2075pt x 112.42pt>
+<images/CC-BY-SA.jpeg, id=225, 323.2075pt x 112.42pt>
 File: images/CC-BY-SA.jpeg Graphic file (type jpg)
 <use images/CC-BY-SA.jpeg>
 Package pdftex.def Info: images/CC-BY-SA.jpeg  used on input line 112.
@@ -1849,7 +1849,7 @@ Overfull \hbox (28.6828pt too wide) in paragraph at lines 145--145
  [][]  
  []
 
-<images/Brief History of NN - Kate Strachnyi.png, id=417, 1381.16pt x 776.9025p
+<images/Brief History of NN - Kate Strachnyi.png, id=447, 1381.16pt x 776.9025p
 t>
 File: images/Brief History of NN - Kate Strachnyi.png Graphic file (type png)
 <use images/Brief History of NN - Kate Strachnyi.png>
@@ -1877,7 +1877,7 @@ Overfull \hbox (28.6828pt too wide) in paragraph at lines 154--154
  [][]  
  []
 
-<images/Ten Years of AI in Review-2.png, id=519, 1213.53375pt x 672.5125pt>
+<images/Ten Years of AI in Review-2.png, id=559, 1213.53375pt x 672.5125pt>
 File: images/Ten Years of AI in Review-2.png Graphic file (type png)
 <use images/Ten Years of AI in Review-2.png>
 Package pdftex.def Info: images/Ten Years of AI in Review-2.png  used on input 
@@ -1905,7 +1905,7 @@ File: images/Ten Years of AI in Review-2.png Graphic file (type png)
 Package pdftex.def Info: images/Ten Years of AI in Review-2.png  used on input 
 line 165.
 (pdftex.def)             Requested size: 230.46739pt x 127.71713pt.
-<images/post_2023-LLMs-Bots-2.png, id=624, 722.7pt x 392.46625pt>
+<images/post_2023-LLMs-Bots-2.png, id=674, 722.7pt x 392.46625pt>
 File: images/post_2023-LLMs-Bots-2.png Graphic file (type png)
 <use images/post_2023-LLMs-Bots-2.png>
 Package pdftex.def Info: images/post_2023-LLMs-Bots-2.png  used on input line 1
@@ -2007,7 +2007,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [11
 
 ]
-<images/IA_predictions.jpeg, id=1107, 1872.9975pt x 1012.78375pt>
+<images/IA_predictions.jpeg, id=1203, 1872.9975pt x 1012.78375pt>
 File: images/IA_predictions.jpeg Graphic file (type jpg)
 <use images/IA_predictions.jpeg>
 Package pdftex.def Info: images/IA_predictions.jpeg  used on input line 244.
@@ -2029,7 +2029,7 @@ Overfull \hbox (28.6828pt too wide) in paragraph at lines 258--258
  [][]  
  []
 
-<images/AI-from_MachineLearningForHumans.png, id=1210, 1806.75pt x 989.6975pt>
+<images/AI-from_MachineLearningForHumans.png, id=1315, 1806.75pt x 989.6975pt>
 File: images/AI-from_MachineLearningForHumans.png Graphic file (type png)
 <use images/AI-from_MachineLearningForHumans.png>
 Package pdftex.def Info: images/AI-from_MachineLearningForHumans.png  used on i
@@ -2185,7 +2185,7 @@ Overfull \hbox (19.22636pt too wide) in paragraph at lines 370--370
 []  
  []
 
-<images/DRL.png, id=1838, 481.8pt x 191.21437pt>
+<images/DRL.png, id=2004, 481.8pt x 191.21437pt>
 File: images/DRL.png Graphic file (type png)
 <use images/DRL.png>
 Package pdftex.def Info: images/DRL.png  used on input line 370.
@@ -2322,7 +2322,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [28
 
 ]
-<images/image_classification_sunflowers.png, id=2310, 210.03468pt x 165.61874pt
+<images/image_classification_sunflowers.png, id=2522, 210.03468pt x 165.61874pt
 >
 File: images/image_classification_sunflowers.png Graphic file (type png)
 <use images/image_classification_sunflowers.png>
@@ -2352,7 +2352,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [29
 
  <./images/image_classification_sunflowers.png>]
-<images/object_detection_aple-banana.png, id=2366, 180.675pt x 165.61874pt>
+<images/object_detection_aple-banana.png, id=2582, 180.675pt x 165.61874pt>
 File: images/object_detection_aple-banana.png Graphic file (type png)
 <use images/object_detection_aple-banana.png>
 Package pdftex.def Info: images/object_detection_aple-banana.png  used on input
@@ -2381,7 +2381,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [30
 
  <./images/object_detection_aple-banana.png>]
-<images/Semantic-segmentation.png, id=2422, 598.48593pt x 203.25937pt>
+<images/Semantic-segmentation.png, id=2644, 598.48593pt x 203.25937pt>
 File: images/Semantic-segmentation.png Graphic file (type png)
 <use images/Semantic-segmentation.png>
 Package pdftex.def Info: images/Semantic-segmentation.png  used on input line 4
@@ -2410,7 +2410,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [31
 
  <./images/Semantic-segmentation.png (PNG copy)>]
-<images/image_generation.png, id=2480, 575.90157pt x 551.05875pt>
+<images/image_generation.png, id=2706, 575.90157pt x 551.05875pt>
 File: images/image_generation.png Graphic file (type png)
 <use images/image_generation.png>
 Package pdftex.def Info: images/image_generation.png  used on input line 452.
@@ -2438,7 +2438,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [32
 
  <./images/image_generation.png (PNG copy)>]
-<images/pose_estimation_TF.png, id=2536, 188.20313pt x 211.54031pt>
+<images/pose_estimation_TF.png, id=2768, 188.20313pt x 211.54031pt>
 File: images/pose_estimation_TF.png Graphic file (type png)
 <use images/pose_estimation_TF.png>
 Package pdftex.def Info: images/pose_estimation_TF.png  used on input line 452.
@@ -2467,7 +2467,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [33
 
  <./images/pose_estimation_TF.png>]
-<images/style_transfer.png, id=2593, 963.6pt x 311.1625pt>
+<images/style_transfer.png, id=2830, 963.6pt x 311.1625pt>
 File: images/style_transfer.png Graphic file (type png)
 <use images/style_transfer.png>
 Package pdftex.def Info: images/style_transfer.png  used on input line 452.
@@ -2500,7 +2500,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [34
 
  <./images/style_transfer.png>]
-<images/east-out-stop2.jpg, id=2651, 642.4pt x 428.60126pt>
+<images/east-out-stop2.jpg, id=2892, 642.4pt x 428.60126pt>
 File: images/east-out-stop2.jpg Graphic file (type jpg)
 <use images/east-out-stop2.jpg>
 Package pdftex.def Info: images/east-out-stop2.jpg  used on input line 452.
@@ -2632,7 +2632,7 @@ Overfull \hbox (28.6828pt too wide) in paragraph at lines 542--542
  [][]  
  []
 
-<images/activ_functions-2.png, id=3284, 848.4197pt x 274.77657pt>
+<images/activ_functions-2.png, id=3586, 848.4197pt x 274.77657pt>
 File: images/activ_functions-2.png Graphic file (type png)
 <use images/activ_functions-2.png>
 Package pdftex.def Info: images/activ_functions-2.png  used on input line 542.
@@ -2693,18 +2693,18 @@ Underfull \hbox (badness 1371) in paragraph at lines 557--557
 []\LY1/phv/m/n/10.95 Les neu-rones sont re-group�s en couches pour for-mer un
  []
 
-<images/neural_networks-005.png, id=3493, 3066.45625pt x 2186.1675pt>
-File: images/neural_networks-005.png Graphic file (type png)
-<use images/neural_networks-005.png>
-Package pdftex.def Info: images/neural_networks-005.png  used on input line 557
-.
-(pdftex.def)             Requested size: 123.89215pt x 88.29912pt.
-<images/neural_networks-008.png, id=3494, 4317.12875pt x 2334.7225pt>
-File: images/neural_networks-008.png Graphic file (type png)
-<use images/neural_networks-008.png>
-Package pdftex.def Info: images/neural_networks-008.png  used on input line 557
-.
-(pdftex.def)             Requested size: 154.86755pt x 83.71863pt.
+<images/neural_networks-005-a.png, id=3815, 472.76625pt x 338.76563pt>
+File: images/neural_networks-005-a.png Graphic file (type png)
+<use images/neural_networks-005-a.png>
+Package pdftex.def Info: images/neural_networks-005-a.png  used on input line 5
+57.
+(pdftex.def)             Requested size: 123.89215pt x 88.77481pt.
+<images/neural_networks-008-a.png, id=3816, 587.94656pt x 318.43968pt>
+File: images/neural_networks-008-a.png Graphic file (type png)
+<use images/neural_networks-008-a.png>
+Package pdftex.def Info: images/neural_networks-008-a.png  used on input line 5
+57.
+(pdftex.def)             Requested size: 154.86755pt x 83.87592pt.
 
 Overfull \hbox (19.91684pt too wide) in paragraph at lines 557--557
 []  
@@ -2717,7 +2717,8 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [47
 
- <./images/neural_networks-005.png> <./images/neural_networks-008.png>]
+ <./images/neural_networks-005-a.png (PNG copy)> <./images/neural_networks-008-
+a.png (PNG copy)>]
 Overfull \hbox (28.6828pt too wide) in paragraph at lines 584--584
  [][]  
  []
@@ -2869,15 +2870,15 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [59
 
 ]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 654--654
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 655--655
  [][]  
  []
 
-<images/DetectionObjets.png, id=4442, 225.84375pt x 103.13531pt>
+<images/DetectionObjets.png, id=4853, 225.84375pt x 103.13531pt>
 File: images/DetectionObjets.png Graphic file (type png)
 <use images/DetectionObjets.png>
-Package pdftex.def Info: images/DetectionObjets.png  used on input line 654.
-(pdftex.def)             Requested size: 122.91406pt x 56.13129pt.
+Package pdftex.def Info: images/DetectionObjets.png  used on input line 655.
+(pdftex.def)             Requested size: 153.64493pt x 70.16884pt.
 
 Overfull \hbox (28.6828pt too wide) has occurred while \output is active
  [][]  
@@ -2886,17 +2887,17 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [60
 
  <./images/DetectionObjets.png>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 681--681
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 682--682
  [][]  
  []
 
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 681--681
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 682--682
 []  
  []
 
 
-Overfull \vbox (2.46016pt too high) detected at line 681
+Overfull \vbox (2.46016pt too high) detected at line 682
  []
 
 
@@ -2907,12 +2908,12 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [61
 
 ]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 681--681
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 682--682
 []  
  []
 
 
-Overfull \vbox (2.46016pt too high) detected at line 681
+Overfull \vbox (2.46016pt too high) detected at line 682
  []
 
 
@@ -2923,12 +2924,12 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [62
 
 ]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 681--681
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 682--682
 []  
  []
 
 
-Overfull \vbox (2.46016pt too high) detected at line 681
+Overfull \vbox (2.46016pt too high) detected at line 682
  []
 
 
@@ -2939,19 +2940,19 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [63
 
 ]
-<images/RPi4_Camera_V2 - 2.jpg, id=4706, 3011.25pt x 4015.0pt>
+<images/RPi4_Camera_V2 - 2.jpg, id=5143, 3011.25pt x 4015.0pt>
 File: images/RPi4_Camera_V2 - 2.jpg Graphic file (type jpg)
 <use images/RPi4_Camera_V2 - 2.jpg>
-Package pdftex.def Info: images/RPi4_Camera_V2 - 2.jpg  used on input line 681.
+Package pdftex.def Info: images/RPi4_Camera_V2 - 2.jpg  used on input line 682.
 
 (pdftex.def)             Requested size: 179.64693pt x 239.48053pt.
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 681--681
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 682--682
 []  
  []
 
 
-Overfull \vbox (2.46016pt too high) detected at line 681
+Overfull \vbox (2.46016pt too high) detected at line 682
  []
 
 
@@ -2962,17 +2963,17 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [64
 
  <./images/RPi4_Camera_V2 - 2.jpg>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 706--706
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 707--707
  [][]  
  []
 
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 706--706
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 707--707
 []  
  []
 
 
-Overfull \vbox (3.08653pt too high) detected at line 706
+Overfull \vbox (3.08653pt too high) detected at line 707
  []
 
 
@@ -2983,12 +2984,12 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [65
 
 ]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 706--706
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 707--707
 []  
  []
 
 
-Overfull \vbox (3.08653pt too high) detected at line 706
+Overfull \vbox (3.08653pt too high) detected at line 707
  []
 
 
@@ -2999,12 +3000,12 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [66
 
 ]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 706--706
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 707--707
 []  
  []
 
 
-Overfull \vbox (3.08653pt too high) detected at line 706
+Overfull \vbox (3.08653pt too high) detected at line 707
  []
 
 
@@ -3015,12 +3016,12 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [67
 
 ]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 706--706
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 707--707
 []  
  []
 
 
-Overfull \vbox (3.08653pt too high) detected at line 706
+Overfull \vbox (3.08653pt too high) detected at line 707
  []
 
 
@@ -3031,18 +3032,18 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [68
 
 ]
-<images/V2-Camera-Thymio.png, id=5022, 409.53pt x 249.18094pt>
+<images/V2-Camera-Thymio.png, id=5490, 409.53pt x 249.18094pt>
 File: images/V2-Camera-Thymio.png Graphic file (type png)
 <use images/V2-Camera-Thymio.png>
-Package pdftex.def Info: images/V2-Camera-Thymio.png  used on input line 706.
+Package pdftex.def Info: images/V2-Camera-Thymio.png  used on input line 707.
 (pdftex.def)             Requested size: 216.81363pt x 131.92458pt.
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 706--706
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 707--707
 []  
  []
 
 
-Overfull \vbox (3.08653pt too high) detected at line 706
+Overfull \vbox (3.08653pt too high) detected at line 707
  []
 
 
@@ -3053,14 +3054,14 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [69
 
  <./images/V2-Camera-Thymio.png (PNG copy)>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 720--720
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 721--721
  [][]  
  []
 
-<images/images_objets_v1.png, id=5124, 602.25pt x 228.10219pt>
+<images/images_objets_v1.png, id=5601, 602.25pt x 228.10219pt>
 File: images/images_objets_v1.png Graphic file (type png)
 <use images/images_objets_v1.png>
-Package pdftex.def Info: images/images_objets_v1.png  used on input line 720.
+Package pdftex.def Info: images/images_objets_v1.png  used on input line 721.
 (pdftex.def)             Requested size: 289.81827pt x 109.7732pt.
 
 Overfull \hbox (28.6828pt too wide) has occurred while \output is active
@@ -3070,14 +3071,14 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [70
 
  <./images/Images_objets_V1.png (PNG copy)>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 734--734
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 735--735
  [][]  
  []
 
-<images/images_objets_v2.png, id=5225, 692.5875pt x 264.23718pt>
+<images/images_objets_v2.png, id=5713, 692.5875pt x 264.23718pt>
 File: images/images_objets_v2.png Graphic file (type png)
 <use images/images_objets_v2.png>
-Package pdftex.def Info: images/images_objets_v2.png  used on input line 734.
+Package pdftex.def Info: images/images_objets_v2.png  used on input line 735.
 (pdftex.def)             Requested size: 289.81827pt x 110.57565pt.
 
 Overfull \hbox (28.6828pt too wide) has occurred while \output is active
@@ -3087,18 +3088,18 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [71
 
  <./images/Images_objets_V2.png (PNG copy)>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 749--749
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 750--750
  [][]  
  []
 
-<images/Roboflow_datasets_v1_dark.png, id=5328, 794.2172pt x 450.18187pt>
+<images/Roboflow_datasets_v1_dark.png, id=5825, 794.2172pt x 450.18187pt>
 File: images/Roboflow_datasets_v1_dark.png Graphic file (type png)
 <use images/Roboflow_datasets_v1_dark.png>
 Package pdftex.def Info: images/Roboflow_datasets_v1_dark.png  used on input li
-ne 749.
+ne 750.
 (pdftex.def)             Requested size: 260.83467pt x 147.84607pt.
 
-Overfull \vbox (15.10414pt too high) detected at line 749
+Overfull \vbox (15.10414pt too high) detected at line 750
  []
 
 
@@ -3109,18 +3110,18 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [72
 
  <./images/Roboflow_datasets_V1_dark.png (PNG copy)>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 764--764
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 765--765
  [][]  
  []
 
-<images/Roboflow_datasets_v2_dark.png, id=5430, 795.72281pt x 448.67625pt>
+<images/Roboflow_datasets_v2_dark.png, id=5938, 795.72281pt x 448.67625pt>
 File: images/Roboflow_datasets_v2_dark.png Graphic file (type png)
 <use images/Roboflow_datasets_v2_dark.png>
 Package pdftex.def Info: images/Roboflow_datasets_v2_dark.png  used on input li
-ne 764.
+ne 765.
 (pdftex.def)             Requested size: 260.83467pt x 147.0709pt.
 
-Overfull \vbox (14.32898pt too high) detected at line 764
+Overfull \vbox (14.32898pt too high) detected at line 765
  []
 
 
@@ -3131,7 +3132,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [73
 
  <./images/Roboflow_datasets_V2_dark.png (PNG copy)>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 783--783
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 785--785
  [][]  
  []
 
@@ -3143,20 +3144,6 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [74
 
 ]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 805--805
- [][]  
- []
-
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 805--805
-[]  
- []
-
-
-Overfull \vbox (3.08653pt too high) detected at line 805
- []
-
-
 Overfull \hbox (28.6828pt too wide) has occurred while \output is active
  [][]  
  []
@@ -3164,46 +3151,19 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [75
 
 ]
-<images/YOLO_nsmlx.png, id=5689, 794.2172pt x 144.54pt>
-File: images/YOLO_nsmlx.png Graphic file (type png)
-<use images/YOLO_nsmlx.png>
-Package pdftex.def Info: images/YOLO_nsmlx.png  used on input line 805.
-(pdftex.def)             Requested size: 309.7351pt x 56.37036pt.
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 805--805
-[]  
- []
-
-
-Overfull \vbox (3.08653pt too high) detected at line 805
- []
-
-
 Overfull \hbox (28.6828pt too wide) has occurred while \output is active
  [][]  
  []
 
 [76
 
- <./images/YOLO_nsmlx.png (PNG copy)>]
-<images/YOLO11_architectures.png, id=5744, 578.91281pt x 194.22563pt>
-File: images/YOLO11_architectures.png Graphic file (type png)
-<use images/YOLO11_architectures.png>
-Package pdftex.def Info: images/YOLO11_architectures.png  used on input line 80
-5.
-(pdftex.def)             Requested size: 309.7351pt x 103.91708pt.
-
-Overfull \hbox (13.2528pt too wide) in paragraph at lines 805--805
-[][]  
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 807--807
+ [][]  
  []
 
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 805--805
-[]  
- []
-
-
-Overfull \vbox (3.08653pt too high) detected at line 805
+Overfull \vbox (3.08653pt too high) detected at line 807
  []
 
 
@@ -3213,18 +3173,14 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [77
 
- <./images/YOLO11_architectures.png (PNG copy)>]
+]
+<images/YOLO_nsmlx.png, id=6343, 794.2172pt x 144.54pt>
 File: images/YOLO_nsmlx.png Graphic file (type png)
 <use images/YOLO_nsmlx.png>
-Package pdftex.def Info: images/YOLO_nsmlx.png  used on input line 805.
-(pdftex.def)             Requested size: 309.7351pt x 56.37036pt.
+Package pdftex.def Info: images/YOLO_nsmlx.png  used on input line 807.
+(pdftex.def)             Requested size: 289.81827pt x 52.74452pt.
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 805--805
-[]  
- []
-
-
-Overfull \vbox (3.08653pt too high) detected at line 805
+Overfull \vbox (3.08653pt too high) detected at line 807
  []
 
 
@@ -3234,24 +3190,20 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [78
 
-]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 822--822
- [][]  
+ <./images/YOLO_nsmlx.png (PNG copy)>]
+<images/YOLO11_architectures.png, id=6402, 578.91281pt x 194.22563pt>
+File: images/YOLO11_architectures.png Graphic file (type png)
+<use images/YOLO11_architectures.png>
+Package pdftex.def Info: images/YOLO11_architectures.png  used on input line 80
+7.
+(pdftex.def)             Requested size: 289.81827pt x 97.23407pt.
+
+Overfull \hbox (13.2528pt too wide) in paragraph at lines 807--807
+[][]  
  []
 
-<images/ChoixMetaParamV1.png, id=5899, 793.46437pt x 152.06813pt>
-File: images/ChoixMetaParamV1.png Graphic file (type png)
-<use images/ChoixMetaParamV1.png>
-Package pdftex.def Info: images/ChoixMetaParamV1.png  used on input line 822.
-(pdftex.def)             Requested size: 309.7351pt x 59.36201pt.
-<images/ChoixMetaParamV2.png, id=5900, 794.2172pt x 154.32657pt>
-File: images/ChoixMetaParamV2.png Graphic file (type png)
-<use images/ChoixMetaParamV2.png>
-Package pdftex.def Info: images/ChoixMetaParamV2.png  used on input line 822.
-(pdftex.def)             Requested size: 309.7351pt x 60.1871pt.
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 822--822
-[]  
+Overfull \vbox (3.08653pt too high) detected at line 807
  []
 
 
@@ -3261,20 +3213,13 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [79
 
- <./images/ChoixMetaParamV1.png (PNG copy)> <./images/ChoixMetaParamV2.png (PNG
- copy)>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 833--833
- [][]  
- []
+ <./images/YOLO11_architectures.png (PNG copy)>]
+File: images/YOLO_nsmlx.png Graphic file (type png)
+<use images/YOLO_nsmlx.png>
+Package pdftex.def Info: images/YOLO_nsmlx.png  used on input line 807.
+(pdftex.def)             Requested size: 289.81827pt x 52.74452pt.
 
-<images/ChoixParam.png, id=6002, 794.2172pt x 334.24875pt>
-File: images/ChoixParam.png Graphic file (type png)
-<use images/ChoixParam.png>
-Package pdftex.def Info: images/ChoixParam.png  used on input line 833.
-(pdftex.def)             Requested size: 309.7351pt x 130.35648pt.
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 833--833
-[]  
+Overfull \vbox (3.08653pt too high) detected at line 807
  []
 
 
@@ -3284,9 +3229,20 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [80
 
- <./images/ChoixParam.png (PNG copy)>]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 867--867
- [][]  
+]
+File: images/YOLO_nsmlx.png Graphic file (type png)
+<use images/YOLO_nsmlx.png>
+Package pdftex.def Info: images/YOLO_nsmlx.png  used on input line 807.
+(pdftex.def)             Requested size: 289.81827pt x 52.74452pt.
+LaTeX Font Info:    Trying to load font information for LY1+lmtt on input line 
+807.
+ (/usr/share/texmf/tex/latex/lm/ly1lmtt.fd
+File: ly1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `LY1/lmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `LY1/lmtt/b/n' tried instead on input line 807.
+
+Overfull \vbox (3.08653pt too high) detected at line 807
  []
 
 
@@ -3296,17 +3252,21 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [81
 
-]
-<images/Regle_nommage.png, id=6157, 697.8572pt x 35.38219pt>
-File: images/Regle_nommage.png Graphic file (type png)
-<use images/Regle_nommage.png>
-Package pdftex.def Info: images/Regle_nommage.png  used on input line 867.
-(pdftex.def)             Requested size: 309.7351pt x 15.70372pt.
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 867--867
-[]  
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-texnansi.enc}]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 824--824
+ [][]  
  []
 
+<images/ChoixMetaParamV1.png, id=6633, 793.46437pt x 152.06813pt>
+File: images/ChoixMetaParamV1.png Graphic file (type png)
+<use images/ChoixMetaParamV1.png>
+Package pdftex.def Info: images/ChoixMetaParamV1.png  used on input line 824.
+(pdftex.def)             Requested size: 289.81827pt x 55.545pt.
+<images/ChoixMetaParamV2.png, id=6634, 794.2172pt x 154.32657pt>
+File: images/ChoixMetaParamV2.png Graphic file (type png)
+<use images/ChoixMetaParamV2.png>
+Package pdftex.def Info: images/ChoixMetaParamV2.png  used on input line 824.
+(pdftex.def)             Requested size: 289.81827pt x 56.31577pt.
 
 Overfull \hbox (28.6828pt too wide) has occurred while \output is active
  [][]  
@@ -3314,28 +3274,17 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [82
 
- <./images/regle_nommage.png (PNG copy)>]
-File: images/Regle_nommage.png Graphic file (type png)
-<use images/Regle_nommage.png>
-Package pdftex.def Info: images/Regle_nommage.png  used on input line 867.
-(pdftex.def)             Requested size: 309.7351pt x 15.70372pt.
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 867--867
-[]  
+ <./images/ChoixMetaParamV1.png (PNG copy)> <./images/ChoixMetaParamV2.png (PNG
+ copy)>]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 835--835
+ [][]  
  []
 
-LaTeX Font Info:    Trying to load font information for LY1+lmtt on input line 
-867.
-(/usr/share/texmf/tex/latex/lm/ly1lmtt.fd
-File: ly1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `LY1/lmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `LY1/lmtt/b/n' tried instead on input line 867.
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 867--867
-[]  
- []
-
+<images/ChoixParam.png, id=6746, 794.2172pt x 334.24875pt>
+File: images/ChoixParam.png Graphic file (type png)
+<use images/ChoixParam.png>
+Package pdftex.def Info: images/ChoixParam.png  used on input line 835.
+(pdftex.def)             Requested size: 289.81827pt x 121.97173pt.
 
 Overfull \hbox (28.6828pt too wide) has occurred while \output is active
  [][]  
@@ -3343,18 +3292,9 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [83
 
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-texnansi.enc}]
-Overfull \hbox (28.6828pt too wide) in paragraph at lines 890--890
+ <./images/ChoixParam.png (PNG copy)>]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 866--866
  [][]  
- []
-
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
-[]  
- []
-
-
-Overfull \vbox (1.83379pt too high) detected at line 890
  []
 
 
@@ -3365,14 +3305,11 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [84
 
 ]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
-[]  
- []
-
-
-Overfull \vbox (1.83379pt too high) detected at line 890
- []
-
+<images/Regle_nommage.png, id=6916, 697.8572pt x 35.38219pt>
+File: images/Regle_nommage.png Graphic file (type png)
+<use images/Regle_nommage.png>
+Package pdftex.def Info: images/Regle_nommage.png  used on input line 866.
+(pdftex.def)             Requested size: 289.81827pt x 14.69412pt.
 
 Overfull \hbox (28.6828pt too wide) has occurred while \output is active
  [][]  
@@ -3380,25 +3317,14 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [85
 
-]
-<images/Exple_image_train_v2.png, id=6422, 298.11375pt x 299.61937pt>
-File: images/Exple_image_train_v2.png Graphic file (type png)
-<use images/Exple_image_train_v2.png>
-Package pdftex.def Info: images/Exple_image_train_v2.png  used on input line 89
-0.
-(pdftex.def)             Requested size: 154.09207pt x 154.86755pt.
+ <./images/regle_nommage.png (PNG copy)>]
+File: images/Regle_nommage.png Graphic file (type png)
+<use images/Regle_nommage.png>
+Package pdftex.def Info: images/Regle_nommage.png  used on input line 866.
+(pdftex.def)             Requested size: 289.81827pt x 14.69412pt.
 
-Overfull \hbox (22.63583pt too wide) in paragraph at lines 890--890
-[]| []  
- []
-
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 866--866
 []  
- []
-
-
-Overfull \vbox (1.83379pt too high) detected at line 890
  []
 
 
@@ -3408,13 +3334,13 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [86
 
- <./images/Exple_image_train_v2.png (PNG copy)>]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
-[]  
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 889--889
+ [][]  
  []
 
 
-Overfull \vbox (1.83379pt too high) detected at line 890
+Overfull \vbox (1.83379pt too high) detected at line 889
  []
 
 
@@ -3425,24 +3351,7 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 [87
 
 ]
-<images/Exple_image_val_v2.png, id=6530, 381.67593pt x 382.42876pt>
-File: images/Exple_image_val_v2.png Graphic file (type png)
-<use images/Exple_image_val_v2.png>
-Package pdftex.def Info: images/Exple_image_val_v2.png  used on input line 890.
-
-(pdftex.def)             Requested size: 154.56042pt x 154.86755pt.
-
-Overfull \hbox (23.10419pt too wide) in paragraph at lines 890--890
-[]| []  
- []
-
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
-[]  
- []
-
-
-Overfull \vbox (1.83379pt too high) detected at line 890
+Overfull \vbox (1.83379pt too high) detected at line 889
  []
 
 
@@ -3452,13 +3361,20 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [88
 
- <./images/Exple_image_val_v2.png (PNG copy)>]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
-[]  
+]
+<images/Exple_image_train_v2.png, id=7204, 298.11375pt x 299.61937pt>
+File: images/Exple_image_train_v2.png Graphic file (type png)
+<use images/Exple_image_train_v2.png>
+Package pdftex.def Info: images/Exple_image_train_v2.png  used on input line 88
+9.
+(pdftex.def)             Requested size: 144.1847pt x 144.90913pt.
+
+Overfull \hbox (32.6453pt too wide) in paragraph at lines 889--889
+[]| []  
  []
 
 
-Overfull \vbox (1.83379pt too high) detected at line 890
+Overfull \vbox (1.83379pt too high) detected at line 889
  []
 
 
@@ -3468,25 +3384,8 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [89
 
-]
-<images/ConfusionMatrix_v2.png, id=6638, 498.36188pt x 441.14813pt>
-File: images/ConfusionMatrix_v2.png Graphic file (type png)
-<use images/ConfusionMatrix_v2.png>
-Package pdftex.def Info: images/ConfusionMatrix_v2.png  used on input line 890.
-
-(pdftex.def)             Requested size: 279.92484pt x 247.78902pt.
-
-Overfull \hbox (26.12166pt too wide) in paragraph at lines 890--890
-[]| []  
- []
-
-
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
-[]  
- []
-
-
-Overfull \vbox (1.83379pt too high) detected at line 890
+ <./images/Exple_image_train_v2.png (PNG copy)>]
+Overfull \vbox (1.83379pt too high) detected at line 889
  []
 
 
@@ -3496,13 +3395,20 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [90
 
- <./images/ConfusionMatrix_v2.png (PNG copy)>]
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
-[]  
+]
+<images/Exple_image_val_v2.png, id=7322, 381.67593pt x 382.42876pt>
+File: images/Exple_image_val_v2.png Graphic file (type png)
+<use images/Exple_image_val_v2.png>
+Package pdftex.def Info: images/Exple_image_val_v2.png  used on input line 889.
+
+(pdftex.def)             Requested size: 144.62486pt x 144.90913pt.
+
+Overfull \hbox (33.08546pt too wide) in paragraph at lines 889--889
+[]| []  
  []
 
 
-Overfull \vbox (1.83379pt too high) detected at line 890
+Overfull \vbox (1.83379pt too high) detected at line 889
  []
 
 
@@ -3512,21 +3418,944 @@ Overfull \hbox (28.6828pt too wide) has occurred while \output is active
 
 [91
 
+ <./images/Exple_image_val_v2.png (PNG copy)>]
+Overfull \vbox (1.83379pt too high) detected at line 889
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[92
+
 ]
-<images/Metrics_v2.png, id=6747, 591.71063pt x 297.36093pt>
+<images/ConfusionMatrix_v2.png, id=7441, 498.36188pt x 441.14813pt>
+File: images/ConfusionMatrix_v2.png Graphic file (type png)
+<use images/ConfusionMatrix_v2.png>
+Package pdftex.def Info: images/ConfusionMatrix_v2.png  used on input line 889.
+
+(pdftex.def)             Requested size: 278.29749pt x 246.34729pt.
+
+Overfull \hbox (30.18477pt too wide) in paragraph at lines 889--889
+[]| []  
+ []
+
+
+Overfull \vbox (1.83379pt too high) detected at line 889
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[93
+
+ <./images/ConfusionMatrix_v2.png (PNG copy)>]
+Overfull \vbox (1.83379pt too high) detected at line 889
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[94
+
+]
+<images/Metrics_v2.png, id=7560, 591.71063pt x 297.36093pt>
 File: images/Metrics_v2.png Graphic file (type png)
 <use images/Metrics_v2.png>
-Package pdftex.def Info: images/Metrics_v2.png  used on input line 890.
-(pdftex.def)             Requested size: 371.68118pt x 186.78935pt.
+Package pdftex.def Info: images/Metrics_v2.png  used on input line 889.
+(pdftex.def)             Requested size: 376.76462pt x 189.34389pt.
 
-Overfull \hbox (23.98384pt too wide) in paragraph at lines 890--890
+Overfull \hbox (48.98412pt too wide) in paragraph at lines 889--889
 []| [][][][][][][]  
  []
 
 
-Overfull \hbox (19.91684pt too wide) in paragraph at lines 890--890
+Overfull \vbox (1.83379pt too high) detected at line 889
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[95
+
+ <./images/Metrics_v2.png (PNG copy)>]
+Overfull \vbox (1.83379pt too high) detected at line 889
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[96
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 912--912
+ [][]  
+ []
+
+LaTeX Font Info:    Font shape `LY1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `LY1/lmtt/b/n' tried instead on input line 912.
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[97
+
+]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[98
+
+]
+<images/Taille_fichiers_poids.png, id=7854, 535.2497pt x 132.495pt>
+File: images/Taille_fichiers_poids.png Graphic file (type png)
+<use images/Taille_fichiers_poids.png>
+Package pdftex.def Info: images/Taille_fichiers_poids.png  used on input line 9
+12.
+(pdftex.def)             Requested size: 202.8719pt x 50.21922pt.
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[99
+
+ <./images/Taille_fichiers_poids.png (PNG copy)>]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 932--932
+ [][]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[100
+
+]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[101
+
+]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[102
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 947--947
+ [][]  
+ []
+
+<images/Temps_moyen_Inférences.png, id=8193, 503.63156pt x 213.79875pt>
+File: images/Temps_moyen_Inférences.png Graphic file (type png)
+<use images/Temps_moyen_Inférences.png>
+Package pdftex.def Info: images/Temps_moyen_Inférences.png  used on input line
+ 947.
+(pdftex.def)             Requested size: 144.90913pt x 61.51396pt.
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[103
+
+ <./images/Temps_moyen_Inférences.png (PNG copy)>]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 971--971
+ [][]  
+ []
+
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 971--971
 []  
  []
 
 
-Overfull \vbox (1.83379pt too high) detected 
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[104
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 971--971
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[105
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 971--971
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[106
+
+]
+<images/IoU-4.png, id=8486, 374.90062pt x 229.60782pt>
+File: images/IoU-4.png Graphic file (type png)
+<use images/IoU-4.png>
+Package pdftex.def Info: images/IoU-4.png  used on input line 971.
+(pdftex.def)             Requested size: 216.81363pt x 132.78723pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 971--971
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[107
+
+ <./images/IoU-4.png (PNG copy)>]
+<images/IoU-3.png, id=8546, 630.85687pt x 250.68657pt>
+File: images/IoU-3.png Graphic file (type png)
+<use images/IoU-3.png>
+Package pdftex.def Info: images/IoU-3.png  used on input line 971.
+(pdftex.def)             Requested size: 278.7597pt x 110.77292pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 971--971
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[108
+
+ <./images/IoU-3.png (PNG copy)>]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 971--971
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[109
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 971--971
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[110
+
+]
+<images/Results_recall_mAP50-95_V2.png, id=8727, 499.8675pt x 515.67656pt>
+File: images/Results_recall_mAP50-95_V2.png Graphic file (type png)
+<use images/Results_recall_mAP50-95_V2.png>
+Package pdftex.def Info: images/Results_recall_mAP50-95_V2.png  used on input l
+ine 971.
+(pdftex.def)             Requested size: 232.30133pt x 239.64548pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 971--971
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[111
+
+ <./images/Results_recall_mAP50-95_V2.png (PNG copy)>]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 998--998
+ [][]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[112
+
+]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[113
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1014--1014
+ [][]  
+ []
+
+File: images/V2-Camera-Thymio.png Graphic file (type png)
+<use images/V2-Camera-Thymio.png>
+Package pdftex.def Info: images/V2-Camera-Thymio.png  used on input line 1014.
+(pdftex.def)             Requested size: 184.3758pt x 112.18741pt.
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[114
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1037--1037
+ [][]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[115
+
+]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[116
+
+]
+<images/PiImager.png, id=9236, 505.13719pt x 362.10281pt>
+File: images/PiImager.png Graphic file (type png)
+<use images/PiImager.png>
+Package pdftex.def Info: images/PiImager.png  used on input line 1037.
+(pdftex.def)             Requested size: 242.58641pt x 173.89272pt.
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[117
+
+ <./images/PiImager.png (PNG copy)>]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[118
+
+]
+<images/Ws_WiFi_suivant-2.png, id=9354, 265.74281pt x 369.63094pt>
+File: images/Ws_WiFi_suivant-2.png Graphic file (type png)
+<use images/Ws_WiFi_suivant-2.png>
+Package pdftex.def Info: images/Ws_WiFi_suivant-2.png  used on input line 1037.
+
+(pdftex.def)             Requested size: 145.85487pt x 202.8719pt.
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[119
+
+ <./images/Ws_WiFi_suivant-2.png (PNG copy)>]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[120
+
+]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[121
+
+]
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[122
+
+]
+<images/RPi4-UCIA_YOLOs-tree.png, id=9591, 401.24907pt x 374.14781pt>
+File: images/RPi4-UCIA_YOLOs-tree.png Graphic file (type png)
+<use images/RPi4-UCIA_YOLOs-tree.png>
+Package pdftex.def Info: images/RPi4-UCIA_YOLOs-tree.png  used on input line 10
+37.
+(pdftex.def)             Requested size: 248.64938pt x 231.85548pt.
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[123
+
+ <./images/RPi4-UCIA_YOLOs-tree.png (PNG copy)>]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1070--1070
+ [][]  
+ []
+
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[124
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[125
+
+]
+<images/detect_camera-1_a.png, id=9819, 481.8pt x 539.01375pt>
+File: images/detect_camera-1_a.png Graphic file (type png)
+<use images/detect_camera-1_a.png>
+Package pdftex.def Info: images/detect_camera-1_a.png  used on input line 1070.
+
+(pdftex.def)             Requested size: 216.81363pt x 242.55394pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[126
+
+ <./images/detect_camera-1_a.png (PNG copy)>]
+<images/detect_camera-1_b.png, id=9879, 917.67844pt x 538.26094pt>
+File: images/detect_camera-1_b.png Graphic file (type png)
+<use images/detect_camera-1_b.png>
+Package pdftex.def Info: images/detect_camera-1_b.png  used on input line 1070.
+
+(pdftex.def)             Requested size: 371.68118pt x 218.01091pt.
+
+Overfull \hbox (32.51976pt too wide) in paragraph at lines 1070--1070
+[]| []  
+ []
+
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[127
+
+ <./images/detect_camera-1_b.png (PNG copy)>]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[128
+
+]
+<images/detect_camera-2_a.png, id=9998, 483.30562pt x 542.77782pt>
+File: images/detect_camera-2_a.png Graphic file (type png)
+<use images/detect_camera-2_a.png>
+Package pdftex.def Info: images/detect_camera-2_a.png  used on input line 1070.
+
+(pdftex.def)             Requested size: 216.81363pt x 243.49408pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[129
+
+ <./images/detect_camera-2_a.png (PNG copy)>]
+<images/detect_camera-2_b.png, id=10058, 916.92563pt x 539.01375pt>
+File: images/detect_camera-2_b.png Graphic file (type png)
+<use images/detect_camera-2_b.png>
+Package pdftex.def Info: images/detect_camera-2_b.png  used on input line 1070.
+
+(pdftex.def)             Requested size: 371.68118pt x 218.48853pt.
+
+Overfull \hbox (32.51976pt too wide) in paragraph at lines 1070--1070
+[]| []  
+ []
+
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[130
+
+ <./images/detect_camera-2_b.png (PNG copy)>]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[131
+
+]
+<images/detect_camera-3_a.png, id=10176, 481.04718pt x 319.1925pt>
+File: images/detect_camera-3_a.png Graphic file (type png)
+<use images/detect_camera-3_a.png>
+Package pdftex.def Info: images/detect_camera-3_a.png  used on input line 1070.
+
+(pdftex.def)             Requested size: 278.7597pt x 184.97104pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[132
+
+ <./images/detect_camera-3_a.png (PNG copy)>]
+<images/detect_camera-3_b.png, id=10235, 512.66531pt x 639.13782pt>
+File: images/detect_camera-3_b.png Graphic file (type png)
+<use images/detect_camera-3_b.png>
+Package pdftex.def Info: images/detect_camera-3_b.png  used on input line 1070.
+
+(pdftex.def)             Requested size: 201.32593pt x 250.98892pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[133
+
+ <./images/detect_camera-3_b.png (PNG copy)>]
+<images/detect_camera-3_c.png, id=10296, 479.54156pt x 320.69812pt>
+File: images/detect_camera-3_c.png Graphic file (type png)
+<use images/detect_camera-3_c.png>
+Package pdftex.def Info: images/detect_camera-3_c.png  used on input line 1070.
+
+(pdftex.def)             Requested size: 278.7597pt x 186.42587pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[134
+
+ <./images/detect_camera-3_c.png (PNG copy)>]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[135
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1070--1070
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[136
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1092--1092
+ [][]  
+ []
+
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1092--1092
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[137
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1092--1092
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[138
+
+]
+<images/Bureau-distance-iconeAI.png, id=10642, 474.27188pt x 262.73157pt>
+File: images/Bureau-distance-iconeAI.png Graphic file (type png)
+<use images/Bureau-distance-iconeAI.png>
+Package pdftex.def Info: images/Bureau-distance-iconeAI.png  used on input line
+ 1092.
+(pdftex.def)             Requested size: 278.7597pt x 154.42897pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1092--1092
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[139
+
+ <./images/Bureau-distance-iconeAI.png (PNG copy)>]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1092--1092
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[140
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1115--1115
+ [][]  
+ []
+
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1115--1115
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[141
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1115--1115
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[142
+
+]
+File: images/detect_camera-3_b.png Graphic file (type png)
+<use images/detect_camera-3_b.png>
+Package pdftex.def Info: images/detect_camera-3_b.png  used on input line 1115.
+
+(pdftex.def)             Requested size: 201.32593pt x 250.98892pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1115--1115
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[143
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1115--1115
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[144
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1133--1133
+ [][]  
+ []
+
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1133--1133
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[145
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1133--1133
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[146
+
+]
+File: images/detect_camera-3_b.png Graphic file (type png)
+<use images/detect_camera-3_b.png>
+Package pdftex.def Info: images/detect_camera-3_b.png  used on input line 1133.
+
+(pdftex.def)             Requested size: 185.84294pt x 231.68884pt.
+
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1133--1133
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[147
+
+]
+Overfull \hbox (19.91684pt too wide) in paragraph at lines 1133--1133
+[]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[148
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1177--1177
+ [][]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[149
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1190--1190
+ [][]  
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[150
+
+]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1206--1206
+ [][]  
+ []
+
+<./images/NetworkTraining.png, id=11617, 749.04843pt x 378.66469pt>
+File: ./images/NetworkTraining.png Graphic file (type png)
+<use ./images/NetworkTraining.png>
+Package pdftex.def Info: ./images/NetworkTraining.png  used on input line 1206.
+
+(pdftex.def)             Requested size: 362.5998pt x 183.30547pt.
+
+Overfull \hbox (26.85718pt too wide) in paragraph at lines 1206--1206
+[]| [] 
+ []
+
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[151
+
+ <./images/NetworkTraining.png (PNG copy)>]
+Overfull \hbox (28.6828pt too wide) in paragraph at lines 1218--1218
+ [][]  
+ []
+
+<./images/NetworkTraining_2.png, id=11731, 1966.34625pt x 1170.3725pt>
+File: ./images/NetworkTraining_2.png Graphic file (type png)
+<use ./images/NetworkTraining_2.png>
+Package pdftex.def Info: ./images/NetworkTraining_2.png  used on input line 121
+8.
+(pdftex.def)             Requested size: 307.28987pt x 182.8881pt.
+
+Overfull \hbox (28.6828pt too wide) has occurred while \output is active
+ [][]  
+ []
+
+[152
+
+ <./images/NetworkTraining_2.png>]
+\tf@nav=\write7
+\openout7 = `slides.nav'.
+
+\tf@toc=\write8
+\openout8 = `slides.toc'.
+
+\tf@snm=\write9
+\openout9 = `slides.snm'.
+
+
+
+enddocument/afterlastpage: lastpage setting LastPage.
+(./slides.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `slides.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `slides.out':
+(rerunfilecheck)             Before: 98049C20F086684497754F80C22DF5C6;2417
+(rerunfilecheck)             After:  A62063456AD62AE132FF6BD4CEB2FB0F;2417.
+ ) 
+Here is how much of TeX's memory you used:
+ 39970 strings out of 476039
+ 825420 string characters out of 5791729
+ 1972975 words of memory out of 5000000
+ 60838 multiletter control sequences out of 15000+600000
+ 623113 words of font info for 115 fonts, out of 8000000 for 9000
+ 81 hyphenation exceptions out of 8191
+ 101i,19n,107p,564b,1424s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{Outline0.5.1.150} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.3.5.148} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.3.4.148} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.3.3.148} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{Outline0.3.2.148} has been referenced but does not 
+exist, replaced by a fixed one
+
+</usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type
+1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr
+/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lms
+y10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtk10.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb
+o8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/wasy-type1/wasy6.pfb>
+Output written on slides.pdf (152 pages, 11889902 bytes).
+PDF statistics:
+ 11941 PDF objects out of 12825 (max. 8388607)
+ 8928 compressed objects within 90 object streams
+ 327 named destinations out of 1000 (max. 500000)
+ 587 words of extra memory for PDF output out of 10000 (max. 10000000)
+

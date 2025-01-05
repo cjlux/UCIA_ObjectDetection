@@ -6,10 +6,10 @@
 \beamer@subsectionintoc {1}{5}{Aspects infomatiques}{40}{0}{1}
 \beamer@subsectionintoc {1}{6}{Societal issues}{57}{0}{1}
 \beamer@sectionintoc {2}{Étude}{60}{0}{2}
-\beamer@sectionintoc {3}{Mise en oeuvre RPi4}{98}{0}{3}
-\beamer@subsectionintoc {3}{1}{Configuration RPi4-UCIA}{98}{0}{3}
-\beamer@subsectionintoc {3}{2}{Formats de réseau entraîné optimisé pour RPi4}{99}{0}{3}
-\beamer@subsectionintoc {3}{3}{Point d'accès WiFi}{99}{0}{3}
-\beamer@sectionintoc {4}{References}{99}{0}{4}
-\beamer@sectionintoc {5}{Annexes}{101}{0}{5}
-\beamer@subsectionintoc {5}{1}{Supervised learning}{102}{0}{5}
+\beamer@sectionintoc {3}{Mise en oeuvre RPi4}{114}{0}{3}
+\beamer@subsectionintoc {3}{1}{Configuration RPi4-UCIA}{114}{0}{3}
+\beamer@subsectionintoc {3}{2}{Formats de réseau entraîné optimisé pour RPi4}{149}{0}{3}
+\beamer@subsectionintoc {3}{3}{Point d'accès WiFi}{149}{0}{3}
+\beamer@sectionintoc {4}{References}{149}{0}{4}
+\beamer@sectionintoc {5}{Annexes}{150}{0}{5}
+\beamer@subsectionintoc {5}{1}{Supervised learning}{151}{0}{5}
