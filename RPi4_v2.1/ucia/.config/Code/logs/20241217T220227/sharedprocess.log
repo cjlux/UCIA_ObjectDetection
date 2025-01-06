@@ -1,0 +1,6 @@
+2024-12-17 22:02:34.527 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ucia/.vscode/extensions
+2024-12-17 22:02:34.823 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/ucia/.vscode/extensions Unable to create file 'vscode-userdata:/home/ucia/.vscode/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-12-17 22:02:34.824 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ucia/.vscode/extensions
+2024-12-17 22:02:36.870 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_ADDRESS_UNREACHABLE
+2024-12-17 22:02:39.030 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_ADDRESS_UNREACHABLE
+2024-12-17 22:02:40.064 [error] [network] #4: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST net::ERR_ADDRESS_UNREACHABLE

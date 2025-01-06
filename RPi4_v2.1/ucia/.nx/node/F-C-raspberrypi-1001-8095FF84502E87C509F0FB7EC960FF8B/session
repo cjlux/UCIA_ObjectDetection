@@ -1,0 +1,109 @@
+
+NXAGENT - Version 8.14.2
+
+Copyright (C) 2001, 2024 NoMachine.
+See http://www.nomachine.com/ for more information.
+
+Session: Starting session at Thu Dec  5 22:05:49 2024.
+Info: Agent running with pid 2870.
+Info: Slave server running with pid 2881.
+Info: Listening to slave connections on port 12001.
+Info: Display running with pid 2882.
+2870 2870 2024-12-05 22:05:49 756.872 DBus: ERROR! Expected 'u' in reply.
+2870 2870 2024-12-05 22:05:49 756.985 DBus: ERROR! Got 's'.
+2870 2870 2024-12-05 22:05:49 756.998 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+2870 2870 2024-12-05 22:05:49 759.115 MonitorConfiguratorKde: ERROR! Failed to parse screen info.
+2870 2870 2024-12-05 22:05:49 759.212 MonitorConfiguratorKde: ERROR! Failed to allocate monitors configuration.
+Info: Audio client started with pid 2890.
+Info: Audio server started with pid 2889.
+Info: Display server started with pid 2912.
+"The XKEYBOARD keymap compiler (nxkb) reports:"
+"> "Warning:          Unsupported high keycode 372 for name <I372> ignored
+"> "                  X11 cannot support keycodes above 255.
+"> "                  This warning only shows for the first high keycode.
+"Errors from nxkb are not fatal to the X server"
+Session: Session started at Thu Dec  5 22:05:50 2024.
+"The XKEYBOARD keymap compiler (nxkb) reports:"
+"> "Warning:          Unsupported high keycode 372 for name <I372> ignored
+"> "                  X11 cannot support keycodes above 255.
+"> "                  This warning only shows for the first high keycode.
+"Errors from nxkb are not fatal to the X server"
+2870 2882 2024-12-05 22:05:53 032.461 DBus: ERROR! Expected 'u' in reply.
+2870 2882 2024-12-05 22:05:53 032.579 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:05:53 032.611 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+2870 2882 2024-12-05 22:05:53 503.865 DBus: ERROR! Expected 'u' in reply.
+2870 2882 2024-12-05 22:05:53 503.983 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:05:53 503.998 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+2870 2882 2024-12-05 22:05:53 505.430 MonitorConfiguratorKde: ERROR! Failed to parse screen info.
+2870 2882 2024-12-05 22:05:53 505.490 MonitorConfiguratorKde: ERROR! Failed to allocate monitors configuration.
+2870 2882 2024-12-05 22:05:53 505.623 EglGrabber: ERROR! Can't connect to socket '/tmp/nxegl.1000'.
+2870 2882 2024-12-05 22:05:53 505.666 EglGrabber: Error is '111' 'Connection refused'.
+2870 2882 2024-12-05 22:05:53 505.752 EglGrabber: ERROR! Unable to connect to interposer.
+2870 2882 2024-12-05 22:05:53 505.768 WaylandPoller: ERROR! Grabber init failed.
+2870 2882 2024-12-05 22:05:58 506.731 DBus: ERROR! Expected 'u' in reply.
+2870 2882 2024-12-05 22:05:58 506.818 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:05:58 506.833 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+2870 2882 2024-12-05 22:05:58 519.931 DrmGrabber: drmModeGetResources() failed.
+2870 2882 2024-12-05 22:05:58 520.014 DrmGrabber: Error is 95 'Operation not supported'.
+2870 2882 2024-12-05 22:05:59 836.231 MonitorConfiguratorKde: ERROR! Failed to parse screen info.
+2870 2882 2024-12-05 22:05:59 836.366 MonitorConfiguratorKde: ERROR! Failed to allocate monitors configuration.
+3226 3226 22:05:59 836 nxexecScreenProcPull: Error: Failed to get crtc.
+3226 3226 22:05:59 837 nxexecScreen: ERROR! Dispatch abnormal exit.
+2870 2882 2024-12-05 22:05:59 837.072 DrmHelper: ERROR! Unexpected number of file descriptors 0.
+2870 2882 2024-12-05 22:05:59 837.117 DrmGrabber: ERROR! Failed to get dmr prime fd.
+2870 2882 2024-12-05 22:05:59 837.133 DrmGrabber: ERROR! FbInfo init failed.
+2870 2882 2024-12-05 22:05:59 837.146 WaylandPoller: ERROR! Grabber init failed.
+2870 2882 2024-12-05 22:05:59 837.815 IoUtils: ERROR! Can't receive the requested message.
+2870 2882 2024-12-05 22:05:59 837.888 IoUtils: ERROR! Error is 104 Connection reset by peer
+2870 2882 2024-12-05 22:05:59 837.929 DrmHelper: Failed reading back Quit status.
+Warning: Process 3226 finished with status 1.
+2870 2882 2024-12-05 22:06:04 846.244 DBus: ERROR! Expected 'u' in reply.
+2870 2882 2024-12-05 22:06:04 846.393 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:06:04 846.429 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+2870 2882 2024-12-05 22:06:04 850.001 DBus: ERROR! Expected 'o' in reply.
+2870 2882 2024-12-05 22:06:04 850.092 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:06:04 850.124 DBus: ERROR! 'The name org.gnome.Mutter.RemoteDesktop was not provided by any .service files'.
+Error: Failed to create remote desktop session.
+Error: Remote session creation failed.
+2870 2882 2024-12-05 22:06:04 850.230 WaylandPoller: ERROR! Grabber init failed.
+2870 2882 2024-12-05 22:06:09 852.391 DBus: ERROR! Expected 'u' in reply.
+2870 2882 2024-12-05 22:06:09 852.599 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:06:09 852.635 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+2870 2882 2024-12-05 22:06:09 855.463 MonitorConfiguratorKde: ERROR! Failed to parse screen info.
+2870 2882 2024-12-05 22:06:09 856.578 MonitorConfiguratorKde: ERROR! Failed to allocate monitors configuration.
+2870 2882 2024-12-05 22:06:09 856.714 EglGrabber: ERROR! Can't connect to socket '/tmp/nxegl.1000'.
+2870 2882 2024-12-05 22:06:09 856.748 EglGrabber: Error is '111' 'Connection refused'.
+2870 2882 2024-12-05 22:06:09 856.822 EglGrabber: ERROR! Unable to connect to interposer.
+2870 2882 2024-12-05 22:06:09 856.853 WaylandPoller: ERROR! Grabber init failed.
+2870 2882 2024-12-05 22:06:09 858.327 DBus: ERROR! Expected 'u' in reply.
+2870 2882 2024-12-05 22:06:09 858.416 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:06:09 858.448 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+2870 2882 2024-12-05 22:06:09 888.291 DrmGrabber: drmModeGetResources() failed.
+2870 2882 2024-12-05 22:06:09 888.421 DrmGrabber: Error is 95 'Operation not supported'.
+2870 2882 2024-12-05 22:06:11 017.197 MonitorConfiguratorKde: ERROR! Failed to parse screen info.
+2870 2882 2024-12-05 22:06:11 017.350 MonitorConfiguratorKde: ERROR! Failed to allocate monitors configuration.
+3266 3266 22:06:11 017 nxexecScreenProcPull: Error: Failed to get crtc.
+3266 3266 22:06:11 017 nxexecScreen: ERROR! Dispatch abnormal exit.
+2870 2882 2024-12-05 22:06:11 017.909 DrmHelper: ERROR! Unexpected number of file descriptors 0.
+2870 2882 2024-12-05 22:06:11 017.947 DrmGrabber: ERROR! Failed to get dmr prime fd.
+2870 2882 2024-12-05 22:06:11 017.957 DrmGrabber: ERROR! FbInfo init failed.
+2870 2882 2024-12-05 22:06:11 017.968 WaylandPoller: ERROR! Grabber init failed.
+2870 2882 2024-12-05 22:06:11 018.744 IoUtils: ERROR! Can't receive the requested message.
+2870 2882 2024-12-05 22:06:11 018.862 IoUtils: ERROR! Error is 104 Connection reset by peer
+2870 2882 2024-12-05 22:06:11 018.907 DrmHelper: Failed reading back Quit status.
+Warning: Process 3266 finished with status 1.
+2870 2882 2024-12-05 22:06:11 026.060 DBus: ERROR! Expected 'u' in reply.
+2870 2882 2024-12-05 22:06:11 026.158 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:06:11 026.169 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+2870 2882 2024-12-05 22:06:11 027.555 DBus: ERROR! Expected 'o' in reply.
+2870 2882 2024-12-05 22:06:11 027.589 DBus: ERROR! Got 's'.
+2870 2882 2024-12-05 22:06:11 027.598 DBus: ERROR! 'The name org.gnome.Mutter.RemoteDesktop was not provided by any .service files'.
+Error: Failed to create remote desktop session.
+Error: Remote session creation failed.
+2870 2882 2024-12-05 22:06:11 027.617 WaylandPoller: ERROR! Grabber init failed.
+2870 2882 2024-12-05 22:06:11 027.632 WaylandPoller: ERROR! Grabber creation failed.
+2870 2882 2024-12-05 22:06:11 027.652 WaylandPoller: ERROR! Init failed.
+nxagentShadowInit: ERROR! Failed to initialize the shadow display.
+Error: Aborting session with '(EE) Failed to initialize mirror poller'.
+Session: Aborting session at Thu Dec  5 22:06:11 2024.
+Session: Session aborted at Thu Dec  5 22:06:11 2024.

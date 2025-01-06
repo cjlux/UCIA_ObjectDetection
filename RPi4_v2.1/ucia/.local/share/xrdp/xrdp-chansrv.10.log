@@ -1,0 +1,7 @@
+[20241205-18:08:32] [INFO ] Socket 12: AF_UNIX connection received
+[20241205-18:08:32] [INFO ] sound_process_training: round trip time 100
+[20241205-18:13:28] [INFO ] Socket 12: AF_UNIX connection received
+[20241205-18:13:28] [INFO ] sound_process_training: round trip time 106
+[20241205-18:15:21] [INFO ] Socket 12: AF_UNIX connection received
+[20241205-18:15:21] [INFO ] sound_process_training: round trip time 101
+[20241205-18:18:44] [ERROR] clipboard_event_selection_request: unknown target text/plain;charset=utf-8

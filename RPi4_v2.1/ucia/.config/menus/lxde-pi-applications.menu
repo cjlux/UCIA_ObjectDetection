@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/lxde-pi-applications.menu</MergeFile>
+	<Menu>
+		<Name>Development</Name>
+		<Include>
+			<Filename>alacarte-made-1.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>geany.desktop</Filename>
+			<Filename>python3.11.desktop</Filename>
+			<Filename>org.thonny.Thonny.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+</Menu>

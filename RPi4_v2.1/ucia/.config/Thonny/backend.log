@@ -1,0 +1,60 @@
+00:00:29.578 [MainThread] INFO    thonny: Thonny version: 4.1.4
+00:00:29.578 [MainThread] INFO    thonny: cwd: /home/ucia/.config/Thonny/leave_this_empty
+00:00:29.578 [MainThread] INFO    thonny: original argv: ['/usr/bin/python3', '-u', '-B', '/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/ucia', "{'run.warn_module_shadowing': True}"]
+00:00:29.578 [MainThread] INFO    thonny: sys.executable: /usr/bin/python3
+00:00:29.579 [MainThread] INFO    thonny: sys.argv: ['/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/ucia', "{'run.warn_module_shadowing': True}"]
+00:00:29.579 [MainThread] INFO    thonny: sys.path: ['/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+00:00:29.579 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=1, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=False, int_max_str_digits=-1)
+00:00:29.580 [MainThread] INFO    thonny: TIME/MODS 0.039 Before constructing backend (+25 modules)
+00:00:29.580 [MainThread] INFO    thonny: NEW MODS ['_heapq', '_locale', '_posixsubprocess', '_queue', 'encodings.ascii', 'errno', 'faulthandler', 'fcntl', 'fnmatch', 'heapq', 'locale', 'math', 'ntpath', 'pathlib', 'queue', 'select', 'selectors', 'signal', 'subprocess', 'thonny.backend', 'thonny.plugins', 'thonny.plugins.cpython_backend', 'thonny.plugins.cpython_backend.cp_back', 'urllib', 'urllib.parse']
+00:00:29.580 [MainThread] INFO    thonny: TIME/MODS 0.001 Before MainBackend 
+00:00:29.581 [MainThread] INFO    thonny: TIME/MODS 0.000 After MainBackend 
+00:00:29.632 [MainThread] INFO    thonny.backend: Loading plugins
+00:00:29.632 [MainThread] INFO    thonny: TIME/MODS 0.052 Before loading plugins (+6 modules)
+00:00:29.633 [MainThread] INFO    thonny: NEW MODS ['__future__', '_sysconfigdata__aarch64-linux-gnu', 'pkgutil', 'platform', 'pydoc', 'sysconfig']
+00:00:29.633 [MainThread] INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/bin', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages', '/home/ucia/.config/Thonny/plugins/lib/python3.11/site-packages']
+00:00:29.640 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.birdseye_backend'
+00:00:29.644 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.dock_user_windows_backend'
+00:00:29.648 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.flask_backend'
+00:00:29.652 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.matplotlib_backend'
+00:00:29.655 [MainThread] INFO    thonny.backend: Loading plugin 'thonny.plugins.backend.pgzero_backend'
+00:00:29.660 [MainThread] INFO    thonny: TIME/MODS 0.027 After loading plugins (+6 modules)
+00:00:29.660 [MainThread] INFO    thonny: NEW MODS ['thonny.plugins.backend', 'thonny.plugins.backend.birdseye_backend', 'thonny.plugins.backend.dock_user_windows_backend', 'thonny.plugins.backend.flask_backend', 'thonny.plugins.backend.matplotlib_backend', 'thonny.plugins.backend.pgzero_backend']
+00:00:29.669 [MainThread] INFO    thonny: TIME/MODS 0.009 Beginning of mainloop 
+00:00:29.674 [MainThread] INFO    thonny: TIME/MODS 0.005 Sending message ToplevelResponse 
+00:00:29.675 [MainThread] INFO    thonny.backend: Loading Jedi
+00:00:29.675 [MainThread] INFO    thonny: TIME/MODS 0.002 Before loading Jedi 
+00:00:29.676 [MainThread] INFO    thonny.common: Using THONNY_FRONTEND_SYS_PATH ['/usr/bin', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages', '/home/ucia/.config/Thonny/plugins/lib/python3.11/site-packages']
+00:00:30.096 [MainThread] INFO    thonny: TIME/MODS 0.421 After loading Jedi (+133 modules)
+00:00:30.097 [MainThread] INFO    thonny: NEW MODS ['_blake2', '_bz2', '_compat_pickle', '_compression', '_ctypes', '_hashlib', '_json', '_lzma', '_pickle', '_struct', 'binascii', 'bz2', 'colorama', 'colorama.ansi', 'colorama.ansitowin32', 'colorama.initialise', 'colorama.win32', 'colorama.winterm', 'ctypes', 'ctypes._endian', 'difflib', 'filecmp', 'gc', 'hashlib', 'jedi', 'jedi._compatibility', 'jedi.api', 'jedi.api.classes', 'jedi.api.completion', 'jedi.api.completion_cache', 'jedi.api.environment', 'jedi.api.errors', 'jedi.api.exceptions', 'jedi.api.file_name', 'jedi.api.helpers', 'jedi.api.interpreter', 'jedi.api.keywords', 'jedi.api.project', 'jedi.api.refactoring', 'jedi.api.refactoring.extract', 'jedi.api.strings', 'jedi.cache', 'jedi.common', 'jedi.debug', 'jedi.file_io', 'jedi.inference', 'jedi.inference.analysis', 'jedi.inference.arguments', 'jedi.inference.base_value', 'jedi.inference.cache', 'jedi.inference.compiled', 'jedi.inference.compiled.access', 'jedi.inference.compiled.getattr_static', 'jedi.inference.compiled.mixed', 'jedi.inference.compiled.subprocess', 'jedi.inference.compiled.subprocess.functions', 'jedi.inference.compiled.value', 'jedi.inference.context', 'jedi.inference.docstring_utils', 'jedi.inference.docstrings', 'jedi.inference.filters', 'jedi.inference.flow_analysis', 'jedi.inference.gradual', 'jedi.inference.gradual.annotation', 'jedi.inference.gradual.base', 'jedi.inference.gradual.conversion', 'jedi.inference.gradual.generics', 'jedi.inference.gradual.stub_value', 'jedi.inference.gradual.type_var', 'jedi.inference.gradual.typeshed', 'jedi.inference.gradual.typing', 'jedi.inference.gradual.utils', 'jedi.inference.helpers', 'jedi.inference.imports', 'jedi.inference.lazy_value', 'jedi.inference.names', 'jedi.inference.param', 'jedi.inference.parser_cache', 'jedi.inference.recursion', 'jedi.inference.references', 'jedi.inference.signature', 'jedi.inference.syntax_tree', 'jedi.inference.sys_path', 'jedi.inference.utils', 'jedi.inference.value', 'jedi.inference.value.decorator', 'jedi.inference.value.dynamic_arrays', 'jedi.inference.value.function', 'jedi.inference.value.instance', 'jedi.inference.value.iterable', 'jedi.inference.value.klass', 'jedi.inference.value.module', 'jedi.parser_utils', 'jedi.plugins', 'jedi.plugins.django', 'jedi.plugins.flask', 'jedi.plugins.pytest', 'jedi.plugins.registry', 'jedi.plugins.stdlib', 'jedi.settings', 'json', 'json.decoder', 'json.encoder', 'json.scanner', 'lzma', 'parso', 'parso._compatibility', 'parso.cache', 'parso.file_io', 'parso.grammar', 'parso.normalizer', 'parso.parser', 'parso.pgen2', 'parso.pgen2.generator', 'parso.pgen2.grammar_parser', 'parso.python', 'parso.python.diff', 'parso.python.errors', 'parso.python.parser', 'parso.python.pep8', 'parso.python.prefix', 'parso.python.token', 'parso.python.tokenize', 'parso.python.tree', 'parso.tree', 'parso.utils', 'pickle', 'pydoc_data', 'pydoc_data.topics', 'shutil', 'struct', 'zipfile', 'zlib']
+00:00:42.727 [MainThread] INFO    thonny: TIME/MODS 12.631 Sending message highlight_occurrences_response (+1 modules)
+00:00:42.728 [MainThread] INFO    thonny: NEW MODS ['thonny.jedi_utils']
+00:01:04.023 [MainThread] INFO    thonny: TIME/MODS 21.295 Sending message highlight_occurrences_response 
+00:01:05.756 [MainThread] INFO    thonny: TIME/MODS 1.733 Sending message highlight_occurrences_response 
+00:01:12.625 [MainThread] INFO    thonny: TIME/MODS 6.869 Sending message highlight_occurrences_response 
+00:01:13.368 [MainThread] INFO    thonny: TIME/MODS 0.743 Sending message highlight_occurrences_response 
+00:01:23.940 [MainThread] INFO    thonny: TIME/MODS 10.573 Sending message highlight_occurrences_response 
+00:01:24.947 [MainThread] INFO    thonny: TIME/MODS 1.007 Sending message highlight_occurrences_response 
+00:01:25.748 [MainThread] INFO    thonny: TIME/MODS 0.801 Sending message highlight_occurrences_response 
+00:01:30.025 [MainThread] INFO    thonny: TIME/MODS 4.276 Sending message highlight_occurrences_response 
+00:01:32.351 [MainThread] INFO    thonny: TIME/MODS 2.327 Sending message highlight_occurrences_response 
+00:01:33.076 [MainThread] INFO    thonny: TIME/MODS 0.725 Sending message highlight_occurrences_response 
+00:02:41.062 [MainThread] INFO    thonny: TIME/MODS 67.986 Sending message highlight_occurrences_response 
+00:02:42.859 [MainThread] INFO    thonny: TIME/MODS 1.797 Sending message highlight_occurrences_response 
+00:02:45.654 [MainThread] INFO    thonny: TIME/MODS 2.794 Sending message highlight_occurrences_response 
+00:03:00.566 [MainThread] INFO    thonny: TIME/MODS 14.912 Sending message highlight_occurrences_response 
+00:03:02.140 [MainThread] INFO    thonny: TIME/MODS 1.574 Sending message highlight_occurrences_response 
+00:03:14.011 [MainThread] INFO    thonny: TIME/MODS 11.871 Sending message highlight_occurrences_response 
+00:04:19.015 [MainThread] INFO    thonny: TIME/MODS 65.004 Sending message highlight_occurrences_response 
+00:04:28.581 [MainThread] INFO    thonny: TIME/MODS 9.566 Sending message highlight_occurrences_response 
+00:04:29.331 [MainThread] INFO    thonny: TIME/MODS 0.750 Sending message highlight_occurrences_response 
+00:04:35.152 [MainThread] INFO    thonny: TIME/MODS 5.821 Sending message highlight_occurrences_response 
+00:04:36.474 [MainThread] INFO    thonny: TIME/MODS 1.322 Sending message highlight_occurrences_response 
+00:05:06.750 [MainThread] INFO    thonny: TIME/MODS 30.277 Sending message highlight_occurrences_response 
+00:05:11.115 [MainThread] INFO    thonny: TIME/MODS 4.365 Sending message highlight_occurrences_response 
+00:05:26.705 [MainThread] INFO    thonny: TIME/MODS 15.590 Sending message highlight_occurrences_response 
+00:05:28.692 [MainThread] INFO    thonny: TIME/MODS 1.988 Sending message highlight_occurrences_response 
+00:05:30.737 [MainThread] INFO    thonny: TIME/MODS 2.045 Sending message highlight_occurrences_response 
+00:05:31.422 [MainThread] INFO    thonny: TIME/MODS 0.685 Sending message highlight_occurrences_response 
+00:05:31.931 [MainThread] INFO    thonny: TIME/MODS 0.509 Sending message highlight_occurrences_response 
+00:05:39.835 [MainThread] INFO    thonny: TIME/MODS 7.905 Sending message highlight_occurrences_response 

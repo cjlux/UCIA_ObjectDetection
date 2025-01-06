@@ -1,0 +1,4 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+lxterminal -e /home/ucia/UCIA/UCIA_ObjectDetection/bin/start_object_detection.sh
+

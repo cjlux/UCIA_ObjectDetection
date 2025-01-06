@@ -1,0 +1,9 @@
+9876 9876 2024-12-05 19:58:39 658.941 UiUtility: Converting system language fr_FR to supported standard.
+Info: Slave server running with pid 9882.
+Info: Listening to slave connections on port 25001.
+Info: Starting NoMachine Monitor version '8.14.2'.
+Info: Loaded translation files for 'French'.
+9876 9876 2024-12-05 19:58:43 550,046 OsDetect: Setting os type to 'Debian'.
+9876 9876 2024-12-05 19:58:43 550,123 Main: Creating a new connection monitor.
+9876 9876 2024-12-05 19:58:44 501,713 MonitorService: Enabled drag and drop feature.
+9876 9876 2024-12-05 20:00:11 470,047 Main: Cleaning up the monitor.

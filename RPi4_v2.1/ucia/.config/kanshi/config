@@ -1,0 +1,8 @@
+profile {
+		output NOOP-1 enable mode --custom 1280x1024 position 0,0 transform normal
+}
+
+profile {
+		output HDMI-A-1 enable mode 800x480@65.681 position 0,0 transform normal
+}
+

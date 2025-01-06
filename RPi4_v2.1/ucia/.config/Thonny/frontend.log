@@ -1,0 +1,21 @@
+00:00:26.464 [MainThread] INFO    thonny: Thonny version: 4.1.4
+00:00:26.465 [MainThread] INFO    thonny: cwd: /home/ucia
+00:00:26.465 [MainThread] INFO    thonny: original argv: ['/usr/bin/python3', '/usr/bin/thonny']
+00:00:26.466 [MainThread] INFO    thonny: sys.executable: /usr/bin/python3
+00:00:26.466 [MainThread] INFO    thonny: sys.argv: ['/usr/bin/thonny']
+00:00:26.466 [MainThread] INFO    thonny: sys.path: ['/usr/bin', '/usr/lib/python311.zip', '/usr/lib/python3.11', '/usr/lib/python3.11/lib-dynload', '/usr/local/lib/python3.11/dist-packages', '/usr/lib/python3/dist-packages', '/usr/lib/python3.11/dist-packages']
+00:00:26.466 [MainThread] INFO    thonny: sys.flags: sys.flags(debug=0, inspect=0, interactive=0, optimize=0, dont_write_bytecode=0, no_user_site=0, no_site=0, ignore_environment=0, verbose=0, bytes_warning=0, quiet=0, hash_randomization=1, isolated=0, dev_mode=False, utf8_mode=0, warn_default_encoding=0, safe_path=False, int_max_str_digits=-1)
+00:00:26.672 [MainThread] INFO    thonny.workbench: Starting Workbench
+00:00:28.375 [MainThread] INFO    thonny.workbench: Creating runner
+00:00:28.384 [MainThread] INFO    thonny.workbench: Start loading plugins
+00:00:28.570 [MainThread] INFO    thonny.workbench: Done loading plugins
+00:00:28.602 [MainThread] WARNING thonny.workbench: Could not find UI theme 'clam', switching to default
+00:00:28.829 [MainThread] INFO    thonny.workbench: Opening views
+00:00:29.347 [MainThread] INFO    thonny.plugins.cpython_frontend.cp_front: Creating LocalCPythonProxy
+00:00:29.348 [MainThread] INFO    thonny.running: Starting the backend: ['/usr/bin/python3', '-u', '-B', '/usr/lib/python3/dist-packages/thonny/plugins/cpython_backend/cp_launcher.py', '/home/ucia', "{'run.warn_module_shadowing': True}"] /home/ucia
+00:00:41.607 [MainThread] INFO    thonny.ui_utils: Restoring focus to .
+00:04:18.537 [MainThread] INFO    thonny.ui_utils: Restoring focus to .
+00:05:10.659 [MainThread] INFO    thonny.ui_utils: Restoring focus to .
+00:06:14.797 [MainThread] INFO    thonny.running: Killing backend process
+00:06:14.797 [MainThread] INFO    thonny.shell: BaseShellText._on_backend_terminated
+00:06:14.803 [Thread-2 (_listen_stdout)] INFO    thonny.running: Reader got EOF

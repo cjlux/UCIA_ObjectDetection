@@ -1,0 +1,32 @@
+
+NXAGENT - Version 8.14.2
+
+Copyright (C) 2001, 2024 NoMachine.
+See http://www.nomachine.com/ for more information.
+
+Session: Starting session at Thu Dec  5 19:58:39 2024.
+Info: Agent running with pid 9855.
+Info: Slave server running with pid 9866.
+Info: Display running with pid 9867.
+Info: Listening to slave connections on port 12001.
+9855 9855 2024-12-05 19:58:39 533.542 DBus: ERROR! Expected 'u' in reply.
+9855 9855 2024-12-05 19:58:39 533.677 DBus: ERROR! Got 's'.
+9855 9855 2024-12-05 19:58:39 533.697 DBus: ERROR! 'The name org.gnome.Mutter.DisplayConfig was not provided by any .service files'.
+9855 9855 2024-12-05 19:58:39 535.256 MonitorConfiguratorKde: ERROR! Failed to parse screen info.
+9855 9855 2024-12-05 19:58:39 535.308 MonitorConfiguratorKde: ERROR! Failed to allocate monitors configuration.
+Info: Audio client started with pid 9875.
+Info: Audio server started with pid 9874.
+Info: Display server started with pid 9886.
+"The XKEYBOARD keymap compiler (nxkb) reports:"
+"> "Warning:          Unsupported high keycode 372 for name <I372> ignored
+"> "                  X11 cannot support keycodes above 255.
+"> "                  This warning only shows for the first high keycode.
+"Errors from nxkb are not fatal to the X server"
+Session: Session started at Thu Dec  5 19:58:39 2024.
+"The XKEYBOARD keymap compiler (nxkb) reports:"
+"> "Warning:          Unsupported high keycode 372 for name <I372> ignored
+"> "                  X11 cannot support keycodes above 255.
+"> "                  This warning only shows for the first high keycode.
+"Errors from nxkb are not fatal to the X server"
+Session: Terminating session at Thu Dec  5 20:00:11 2024.
+Session: Session terminated at Thu Dec  5 20:00:11 2024.

@@ -1,0 +1,12 @@
+[Default Applications]
+text/html=chromium.desktop
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop
+
+[Added Associations]
+text/x-python=geany.desktop;
+
+[Removed Associations]
+text/x-python=userapp-idlex-Q0I4Y2.desktop;

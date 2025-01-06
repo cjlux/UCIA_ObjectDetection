@@ -1,0 +1,613 @@
+# Ce fichier viminfo a été généré par Vim 9.0.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# Viminfo version
+|1,4
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Dernier motif de recherche  :
+~MSle0/q
+
+# Dernier motif de recherche Substitue  :
+~MSle0~&    
+
+# Dernières chaînes de substitution :
+$	
+
+# Historique ligne de commande (chronologie décroissante) :
+:wq
+|2,0,1736059508,,"wq"
+:q!
+|2,0,1736057930,,"q!"
+:'<,'>q
+|2,0,1736057871,,"'<,'>q"
+:'<,'>q!
+|2,0,1736057827,,"'<,'>q!"
+:w
+|2,0,1734703420,,"w"
+:211,273d
+|2,0,1734702502,,"211,273d"
+:q
+|2,0,1734478487,,"q"
+:set nu
+|2,0,1734478364,,"set nu"
+:1,$ s/    /	/g
+|2,0,1734383425,,"1,$ s/    /	/g"
+:1,$ s/	/    /g
+|2,0,1733959706,,"1,$ s/	/    /g"
+:1,$ s '    ' '\t'
+|2,0,1733959303,,"1,$ s '    ' '\\t'"
+:/q
+|2,0,1733936382,,"/q"
+:/14
+|2,0,1733936371,,"/14"
+
+# Historique chaîne de recherche (chronologie décroissante) :
+?     
+|2,1,1734383425,,"    "
+? 	
+|2,1,1733959706,,"	"
+? q
+|2,1,1733936382,,"q"
+? 14
+|2,1,1733936371,,"14"
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique Ligne de débogage (chronologie décroissante) :
+
+# Registres :
+"0	LINE	0
+	systemctl stop rpi-access-point.service
+|3,0,0,1,1,0,1733925848,"systemctl stop rpi-access-point.service"
+"1	LINE	0
+	 1047  history > history_2025-01-02.txt
+|3,0,1,1,1,0,1734703461," 1047  history > history_2025-01-02.txt"
+"2	LINE	0
+	 1046  ls
+|3,0,2,1,1,0,1734703460," 1046  ls"
+"3	LINE	0
+	 1045  cd
+|3,0,3,1,1,0,1734703459," 1045  cd"
+"4	LINE	0
+	 1044  pip freeze > requirements.txt
+|3,0,4,1,1,0,1734703459," 1044  pip freeze > requirements.txt"
+"5	LINE	0
+	 1043  pip freeze
+|3,0,5,1,1,0,1734703458," 1043  pip freeze"
+"6	LINE	0
+	 1042  ls -l
+|3,0,6,1,1,0,1734703458," 1042  ls -l"
+"7	LINE	0
+	 1041  pwd
+|3,0,7,1,1,0,1734703457," 1041  pwd"
+"8	LINE	0
+	 1040  cd UCIA/
+|3,0,8,1,1,0,1734703455," 1040  cd UCIA/"
+"9	LINE	0
+	 1039  ls
+|3,0,9,1,1,0,1734703455," 1039  ls"
+""-	CHAR	0
+	 
+|3,1,36,0,1,0,1736059505," "
+
+# Marques dans le fichier :
+'0  2  162  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,48,2,162,1736059508,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+'1  2  169  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,49,2,169,1736059476,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+'2  2  111  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,50,2,111,1736059407,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+'3  2  111  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,51,2,111,1736059407,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+'4  9  17  ~/Desktop/DetectThymio.desktop
+|4,52,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+'5  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,53,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+'6  207  7  ~/history_2025-01-02.txt
+|4,54,207,7,1736057874,"~/history_2025-01-02.txt"
+'7  207  7  ~/history_2025-01-02.txt
+|4,55,207,7,1736057829,"~/history_2025-01-02.txt"
+'8  237  1  ~/history_2025-01-02.txt
+|4,56,237,1,1734703464,"~/history_2025-01-02.txt"
+'9  237  1  ~/history_2025-01-02.txt
+|4,57,237,1,1734703464,"~/history_2025-01-02.txt"
+
+# Liste de sauts (le plus récent en premier) :
+-'  2  162  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,39,2,162,1736059508,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+-'  2  169  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,39,2,169,1736059476,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+-'  2  111  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,39,2,111,1736059407,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+-'  1  0  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,39,1,0,1736059369,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+-'  1  0  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,39,1,0,1736059369,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+-'  1  0  ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+|4,39,1,0,1736059369,"~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh"
+-'  9  17  ~/Desktop/DetectThymio.desktop
+|4,39,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+-'  9  17  ~/Desktop/DetectThymio.desktop
+|4,39,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+-'  9  17  ~/Desktop/DetectThymio.desktop
+|4,39,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+-'  9  17  ~/Desktop/DetectThymio.desktop
+|4,39,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+-'  9  17  ~/Desktop/DetectThymio.desktop
+|4,39,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+-'  9  17  ~/Desktop/DetectThymio.desktop
+|4,39,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+-'  9  17  ~/Desktop/DetectThymio.desktop
+|4,39,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+-'  9  17  ~/Desktop/DetectThymio.desktop
+|4,39,9,17,1736058516,"~/Desktop/DetectThymio.desktop"
+-'  12  0  ~/Desktop/DetectThymio.desktop
+|4,39,12,0,1736058442,"~/Desktop/DetectThymio.desktop"
+-'  12  0  ~/Desktop/DetectThymio.desktop
+|4,39,12,0,1736058442,"~/Desktop/DetectThymio.desktop"
+-'  12  0  ~/Desktop/DetectThymio.desktop
+|4,39,12,0,1736058442,"~/Desktop/DetectThymio.desktop"
+-'  12  0  ~/Desktop/DetectThymio.desktop
+|4,39,12,0,1736058442,"~/Desktop/DetectThymio.desktop"
+-'  12  0  ~/Desktop/DetectThymio.desktop
+|4,39,12,0,1736058442,"~/Desktop/DetectThymio.desktop"
+-'  12  0  ~/Desktop/DetectThymio.desktop
+|4,39,12,0,1736058442,"~/Desktop/DetectThymio.desktop"
+-'  12  0  ~/Desktop/DetectThymio.desktop
+|4,39,12,0,1736058442,"~/Desktop/DetectThymio.desktop"
+-'  12  0  ~/Desktop/DetectThymio.desktop
+|4,39,12,0,1736058442,"~/Desktop/DetectThymio.desktop"
+-'  13  1  ~/Desktop/DetectThymio.desktop
+|4,39,13,1,1736058394,"~/Desktop/DetectThymio.desktop"
+-'  13  1  ~/Desktop/DetectThymio.desktop
+|4,39,13,1,1736058394,"~/Desktop/DetectThymio.desktop"
+-'  13  1  ~/Desktop/DetectThymio.desktop
+|4,39,13,1,1736058394,"~/Desktop/DetectThymio.desktop"
+-'  13  1  ~/Desktop/DetectThymio.desktop
+|4,39,13,1,1736058394,"~/Desktop/DetectThymio.desktop"
+-'  13  1  ~/Desktop/DetectThymio.desktop
+|4,39,13,1,1736058394,"~/Desktop/DetectThymio.desktop"
+-'  13  1  ~/Desktop/DetectThymio.desktop
+|4,39,13,1,1736058394,"~/Desktop/DetectThymio.desktop"
+-'  13  1  ~/Desktop/DetectThymio.desktop
+|4,39,13,1,1736058394,"~/Desktop/DetectThymio.desktop"
+-'  13  1  ~/Desktop/DetectThymio.desktop
+|4,39,13,1,1736058394,"~/Desktop/DetectThymio.desktop"
+-'  1  0  ~/Desktop/DetectThymio.desktop
+|4,39,1,0,1736058319,"~/Desktop/DetectThymio.desktop"
+-'  1  0  ~/Desktop/DetectThymio.desktop
+|4,39,1,0,1736058319,"~/Desktop/DetectThymio.desktop"
+-'  1  0  ~/Desktop/DetectThymio.desktop
+|4,39,1,0,1736058319,"~/Desktop/DetectThymio.desktop"
+-'  1  0  ~/Desktop/DetectThymio.desktop
+|4,39,1,0,1736058319,"~/Desktop/DetectThymio.desktop"
+-'  1  0  ~/Desktop/DetectThymio.desktop
+|4,39,1,0,1736058319,"~/Desktop/DetectThymio.desktop"
+-'  1  0  ~/Desktop/DetectThymio.desktop
+|4,39,1,0,1736058319,"~/Desktop/DetectThymio.desktop"
+-'  1  0  ~/Desktop/DetectThymio.desktop
+|4,39,1,0,1736058319,"~/Desktop/DetectThymio.desktop"
+-'  1  0  ~/Desktop/DetectThymio.desktop
+|4,39,1,0,1736058319,"~/Desktop/DetectThymio.desktop"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  4  0  ~/.config/lxsession/LXDE-pi/autostart
+|4,39,4,0,1736057930,"~/.config/lxsession/LXDE-pi/autostart"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057874,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+-'  207  7  ~/history_2025-01-02.txt
+|4,39,207,7,1736057829,"~/history_2025-01-02.txt"
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/UCIA/UCIA_ObjectDetection/bin/start_thymio_detection.sh
+	*	1736059507	0
+	"	2	162
+	^	2	170
+	.	2	162
+	+	2	162
+
+> ~/Desktop/DetectThymio.desktop
+	*	1736058515	0
+	"	9	17
+	^	9	18
+	.	3	49
+	+	4	73
+	+	13	47
+	+	12	20
+	+	12	40
+	+	10	17
+	+	3	49
+
+> ~/.config/lxsession/LXDE-pi/autostart
+	*	1736057926	0
+	"	4	0
+	^	3	14
+	.	3	14
+	+	3	45
+	+	3	14
+
+> ~/history_2025-01-02.txt
+	*	1736057871	0
+	"	207	7
+	.	238	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	8	0
+	+	63	0
+	+	9	0
+	+	10	0
+	+	13	0
+	+	23	0
+	+	26	0
+	+	31	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	39	0
+	+	41	0
+	+	45	0
+	+	46	0
+	+	53	0
+	+	55	0
+	+	56	0
+	+	57	0
+	+	58	0
+	+	60	0
+	+	66	0
+	+	68	0
+	+	70	0
+	+	73	0
+	+	74	0
+	+	75	0
+	+	76	0
+	+	77	0
+	+	79	0
+	+	80	0
+	+	81	0
+	+	82	0
+	+	93	0
+	+	94	0
+	+	99	0
+	+	100	0
+	+	101	0
+	+	103	0
+	+	125	0
+	+	172	0
+	+	173	0
+	+	174	0
+	+	176	0
+	+	177	0
+	+	192	0
+	+	196	0
+	+	197	0
+	+	198	0
+	+	199	0
+	+	201	0
+	+	203	0
+	+	204	0
+	+	207	0
+	+	208	0
+	+	209	0
+	+	212	0
+	+	213	0
+	+	219	0
+	+	220	0
+	+	230	0
+	+	234	0
+	+	236	0
+	+	237	0
+	+	238	0
+
+> ~/UCIA/UCIA_ObjectDetection/inf_camera-3.py
+	*	1734479155	0
+	"	8	13
+	^	8	14
+	.	8	13
+	+	37	0
+	+	30	0
+	+	57	0
+	+	67	18
+	+	57	0
+	+	67	6
+	+	57	0
+	+	67	11
+	+	61	45
+	+	23	0
+	+	24	0
+	+	25	0
+	+	57	0
+	+	61	26
+	+	67	6
+	+	33	0
+	+	30	0
+	+	36	23
+	+	53	81
+	+	36	11
+	+	67	1
+	+	66	0
+	+	61	0
+	+	40	1
+	+	44	0
+	+	61	0
+	+	41	1
+	+	42	1
+	+	43	1
+	+	68	0
+	+	81	0
+	+	80	31
+	+	78	37
+	+	78	11
+	+	79	35
+	+	8	13
+
+> ~/UCIA/UCIA_ObjectDetection/inf_camera-1.py
+	*	1734383442	0
+	"	46	3
+	.	44	0
+	+	29	0
+	+	44	0
+
+> ~/Desktop/DetectObj.desktop
+	*	1734369281	0
+	"	4	20
+	^	4	98
+	.	4	20
+	+	4	20
+
+> ~/UCIA/UCIA_ObjectDetection/bin/Desktop/DetectObj.desktop
+	*	1734368801	0
+	"	1	0
+
+> ~/UCIA/UCIA_ObjectDetection/bin/start_object_detection.sh
+	*	1734368773	0
+	"	2	6
+	.	2	108
+	+	2	108
+
+> ~/.config/autostart/DetectObj.desktop
+	*	1734368387	0
+	"	4	5
+
+> ~/UCIA/UCIA_ObjectDetection/inf_camera-2.py
+	*	1734038283	0
+	"	41	0
+	.	12	0
+	+	12	0
+
+> ~/UCIA/UCIA_ObjectDetection/index.html
+	*	1733953174	0
+	"	5	0
+	^	5	0
+	.	4	7
+	+	1	37
+	+	4	7
+
+> ~/.config/geany/geany.conf
+	*	1733936382	0
+	"	165	0
+	.	66	23
+	+	66	23
+
+> ~/UCIA/UCIA_ObjectDetection/server-flask.py
+	*	1733933672	0
+	"	18	37
+	^	18	38
+	.	18	37
+	+	18	37
+
+> ~/UCIA/UCIA_ObjectDetection/server.py
+	*	1733929092	0
+	"	93	0
+
+> ~/UCIA/UCIA_ObjectDetection/server-obj-detection.py
+	*	1733929061	0
+	"	18	0
+
+> ~/HOTSPOT/rpi3-hotspot/install.sh
+	*	1733926064	0
+	"	7	24
+	^	7	25
+	.	7	25
+	+	8	71
+	+	36	0
+	+	6	15
+	+	7	24
+	+	34	14
+	+	35	15
+	+	7	25
+
+> ~/HOTSPOT/rpi3-hotspot/etc/network/interfaces
+	*	1733925677	0
+	"	16	0
+	^	14	0
+	.	12	8
+	+	7	0
+	+	12	8
+
+> ~/UCIA/UCIA_ObjectDetection/take_image.py
+	*	1733654377	0
+	"	25	3
+	^	25	4
+	.	25	3
+	+	18	21
+	+	25	3
+
+> ~/UCIA/UCIA_ObjectDetection/inference_camera.py
+	*	1732990150	0
+	"	19	0
+	^	19	0
+	.	19	0
+	+	19	82
+	+	21	0
+	+	19	0
+	+	21	76
+	+	23	0
+	+	21	0
+	+	24	0
+	+	23	0
+	+	19	0
+	+	21	0
+	+	22	0
+	+	21	0
+	+	22	57
+	+	20	55
+	+	22	0
+	+	20	56
+	+	26	0
+	+	29	0
+	+	26	0
+	+	20	0
+	+	26	58
+	+	27	0
+	+	26	0
+	+	27	76
+	+	28	0
+	+	27	0
+	+	28	0
+	+	19	0
+
+> ~/.bashrc
+	*	1732987016	0
+	"	117	0
+	^	117	0
+	.	116	33
+	+	116	33
+
+> ~/.basrc
+	*	1732986974	0
+	"	1	0
+
+> ~/UCIA/UCIA_ObjectDetection/eval_YOLOv8-onnx.py
+	*	1732986953	0
+	"	52	20
+	^	26	84
+	.	26	84
+	+	26	84

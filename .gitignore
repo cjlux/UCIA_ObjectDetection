@@ -5,9 +5,15 @@
 *.tar
 *.swp
 *.torchscript
+*.pyc
 last.pt
 weights/
 runs/
 Sandbox/
+SandBox/
 .~loc*
 Admin/
+Archive/
+RPi4_v2.0/
+YOLO-trained-V1/
+

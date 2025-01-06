@@ -1,0 +1,27 @@
+
+NXAGENT - Version 8.14.2
+
+Copyright (C) 2001, 2024 NoMachine.
+See http://www.nomachine.com/ for more information.
+
+Session: Starting session at Thu Dec  5 22:10:07 2024.
+Info: Agent running with pid 7655.
+Info: Slave server running with pid 7668.
+Info: Display running with pid 7669.
+Info: Listening to slave connections on port 12002.
+"The XKEYBOARD keymap compiler (nxkb) reports:"
+"> "Warning:          Unsupported high keycode 372 for name <I372> ignored
+"> "                  X11 cannot support keycodes above 255.
+"> "                  This warning only shows for the first high keycode.
+"Errors from nxkb are not fatal to the X server"
+Session: Session started at Thu Dec  5 22:10:08 2024.
+"The XKEYBOARD keymap compiler (nxkb) reports:"
+"> "Warning:          Unsupported high keycode 372 for name <I372> ignored
+"> "                  X11 cannot support keycodes above 255.
+"> "                  This warning only shows for the first high keycode.
+"Errors from nxkb are not fatal to the X server"
+7655 7669 2024-12-05 22:10:27 718.324 X11Poller: WARNING! Failed to connect to display :1001.
+nxagentShadowInit: ERROR! Failed to initialize the shadow display.
+Error: Aborting session with '(EE) Failed to connect to the shadow display'.
+Session: Aborting session at Thu Dec  5 22:10:27 2024.
+Session: Session aborted at Thu Dec  5 22:10:27 2024.

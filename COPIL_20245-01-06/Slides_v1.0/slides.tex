@@ -595,9 +595,9 @@
 
   \begin{tcolorbox}[title={\bf Explicabilité} des Réseaux de Neurones (RN)]
     \begin{itemize}
-    \item {\bf Inexplicabilité} des résultats calculés par les RN $\leadsto$ obstacle à leur diffusion.
-    \item L'apprentissage profond avec les RN souvent dénigré comme une ''boîte noire'' par les scientifiques ayant une ''approche cartésienne''...
-    \item La complexité grandissante des RN (LLM par exemple) rend l'explication simple de leurs décisions extrêmement difficile.
+    \item<1-> {\bf Inexplicabilité} des résultats calculés par les RN $\leadsto$ obstacle à leur diffusion.
+    \item<2-> L'apprentissage profond avec les RN souvent dénigré comme une ''boîte noire'' par les scientifiques ayant une ''approche cartésienne''...
+    \item<3-> La complexité grandissante des RN (LLM par exemple) rend l'explication simple de leurs décisions extrêmement difficile.
     \end{itemize}
   \end{tcolorbox}   
     
@@ -609,11 +609,11 @@
   
   \begin{tcolorbox}[title={\bf Prise de décision}]
     \begin{itemize}
-    \item Un nombre croissant de décisions dans des domaines sensibles (justice pénale, santé, assurance, défense...)
+    \item<1-> Un nombre croissant de décisions dans des domaines sensibles (justice pénale, santé, assurance, défense...)
       confiées aux algorithmes ML source d'inquiétude...
-    \item Les algorithmes de prise de décision reposent inévitablement sur des hypothèses
-      (qualité des données d'apprentissage par exemple) souvent difficile à vérifier.
-    \item Se pose la question de la transparence des algorithmes, des données d'entraînement ({\em Open Source} ).
+    \item<2-> Les algorithmes de prise de décision reposent inévitablement sur des hypothèses
+      (qualité des données d'apprentissage par exemple) souvent difficiles à vérifier.
+    \item<3-> Se pose la question de la transparence des algorithmes, des données d'entraînement... ({\em Open Source} ).
     \end{itemize}
   \end{tcolorbox}   
     
@@ -625,9 +625,9 @@
   
   \begin{tcolorbox}[title={\bf Certification}]
     \begin{itemize}
-    \item {\bf Évaluation} et {\bf Certification} des systèmes IA\\
+    \item<1-> {\bf Évaluation} et {\bf Certification} des systèmes IA\\
       $\leadsto$ enjeu majeur pour leur intégration dans l'industrie. \medskip
-    \item {\bf Certification} formelle des algorithmes de ML\\
+    \item<2-> {\bf Certification} formelle des algorithmes de ML\\
       $\leadsto$ reste aujourd'hui un sujet de recherche :
       \begin{itemize}
       \item \href{https://www.lne.fr/fr/service/certification/certification-processus-ia}{LNE : Certification des processus pour l'IA}
@@ -1061,7 +1061,7 @@
         \only<9>  {\vspace*{-6cm}\includegraphics[width=.9\textwidth]{images/detect_camera-3_a.png}}
         \only<10> {\vspace*{-7.5cm}\includegraphics[width=.65\textwidth]{images/detect_camera-3_b.png}}
         \only<11> {\vspace*{-6cm}\includegraphics[width=.9\textwidth]{images/detect_camera-3_c.png}}
-      \item<13> Temps d'inférence du réseau \fileBF{YOLOv8n} < ~0.5 seconde
+      \item<13> \textbf{Temps d'inférence du réseau \fileBF{YOLOv8n} < ~0.5 seconde}
       \end{itemize}
     }
     
@@ -1115,33 +1115,6 @@
 \end{frame}
 %=============================================================
 
-%====== #45 ==================================================
-\begin{frame}{Configuration RPi4-UCIA}
-  
-  \begin{tcolorbox}[title=Exploitation des réseaux YOLO : Navigateur web, add to width=.7cm, height=68mm]
-    {\small
-      \begin{itemize}
-      \item<2-> Connexion sur \Chocolate{10.99.99.1:5000/video} $\leadsto$ images (couleur) des détections du réseau YOLO\\
-        \only<3> {\vspace*{-3cm}\includegraphics[width=.6\textwidth]{images/detect_camera-3_b.png}}
-      \item<4-> Connexion sur \Chocolate{10.99.99.1:5000/quit} $\leadsto$ terminer l'application
-      \item<4-> Connexion sur \Chocolate{10.99.99.1:5000/halt} $\leadsto$ Shutdown de la carte RPi4 (permet l'extinction)
-      \end{itemize}
-    }
-    
-  \end{tcolorbox}
-    
-\end{frame}
-%=============================================================
-
-\subsection{Formats de réseau entraîné optimisé pour RPi4}
-
-\subsection{Point d'accès WiFi}
-
-\subsection{}
-
-\subsection{}
-
-
 \section{References}
 
 %=============================================================
@@ -1150,22 +1123,22 @@
   \noindent\fontsize{8}{8}\selectfont{
 
     \begin{itemize}
-      \item UCIA Cahier des charges : Robot ROSA avec Intelligence Artificielle OpenSource et OpenHardware \smallskip
+      \item UCIA Cahier des charges : Robot ROSA avec Intelligence Artificielle OpenSource et OpenHardware \medskip
 
       \item Page du site roboflow pour l’accès publique au jeu de données de l’étude :\\
         \href{https://universe.roboflow.com/ucia/ucia-ia-object-detection/dataset/2}
-             {https://universe.roboflow.com/ucia/ucia-ia-object-detection/dataset/2} \smallskip
+             {https://universe.roboflow.com/ucia/ucia-ia-object-detection/dataset/2} \medskip
 
       \item «Ultralytics YOLO11: Faster Than You Can Imagine!», Ankan Ghosh, October 8, 2024\\
-        \href{https://learnopencv.com/yolo11/}{https://learnopencv.com/yolo11/} \smallskip
+        \href{https://learnopencv.com/yolo11/}{https://learnopencv.com/yolo11/} \medskip
          
       \item Article WikiPédia sur les indicateurs de précision:\\
         \href{https://fr.wikipedia.org/wiki/Pr\%C3\%A9cision\_et\_rappel}
-             {https://fr.wikipedia.org/wiki/Pr\%C3\%A9cision\_et\_rappel} \smallskip
+             {https://fr.wikipedia.org/wiki/Pr\%C3\%A9cision\_et\_rappel} \medskip
 
       \item «Analyse approfondie des mesures de performance», site Ultralytics\\
         \href{https://docs.ultralytics.com/fr/guides/yolo-performance-metrics/}
-             {https://docs.ultralytics.com/fr/guides/yolo-performance-metrics/} \smallskip
+             {https://docs.ultralytics.com/fr/guides/yolo-performance-metrics/} \medskip
 
       \item «The Complete Guide to Object Detection Evaluation Metrics: From IoU to mAP and More»\\
         \href{https://medium.com/@prathameshamrutkar3/the-complete-guide-to-object-detection-evaluation-metrics-from-iou-to-map-and-more-1a23c0ea3c9d}

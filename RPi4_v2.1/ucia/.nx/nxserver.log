@@ -1,0 +1,116 @@
+9855 9855 2024-12-05 20:00:11 479.096 NXNODE   WARNING! libnxh::NXConnectLocal cannot connect to localhost:25001: Interrupted system call from NXClientMonitor::sendTerminateMessageToNxMonitor.
+9855 9855 2024-12-05 20:00:11 829.894 NXNODE   WARNING! Process '/usr/NX/bin/nxrunner --monitor --pid 9822' with pid '9876/9876' finished with exit code 1 after 92,281 seconds.
+Error: Session with pid '9822' terminated unexpectedly.
+1579 1579 2024-12-05 22:05:48 064.441 System/System: WARNING! Child pid 2723 not handled in system at 0x7fb453fdc0.
+1579 1579 2024-12-05 22:05:48 065.824 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+2631 2631 2024-12-05 22:05:48 094.808 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+2631 2631 2024-12-05 22:05:48 135.462 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+2870 2870 2024-12-05 22:06:13 173.844 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+2870 2870 2024-12-05 22:06:13 591.485 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+3108 3108 2024-12-05 22:06:13 630.680 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+3108 3108 2024-12-05 22:06:13 721.931 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+3381 3381 2024-12-05 22:06:37 836.726 System/System: WARNING! Child pid 3724 not handled in system at 0x7f8a17fdc0.
+3381 3381 2024-12-05 22:06:37 837.782 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+3633 3633 2024-12-05 22:06:37 864.421 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+3633 3633 2024-12-05 22:06:37 907.243 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+4279 4279 2024-12-05 22:06:54 746.323 NXSERVER WARNING! Process '/usr/NX/scripts/setup/nxserver --checkservices' with pid '4367/4367' finished with exit code 1 after 0,733 seconds.
+3871 3871 2024-12-05 22:07:03 179.350 System/System: WARNING! Child pid 4189 not handled in system at 0x7f8f42fdc0.
+3871 3871 2024-12-05 22:07:03 180.239 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+4095 4095 2024-12-05 22:07:03 210.785 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+4095 4095 2024-12-05 22:07:03 262.155 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+5080 5080 2024-12-05 22:07:53 794.135 NXSERVER WARNING! Process '/usr/NX/scripts/setup/nxserver --checkservices' with pid '5112/5112' finished with exit code 1 after 0,262 seconds.
+4525 4525 2024-12-05 22:08:05 867.541 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+4901 4901 2024-12-05 22:08:05 893.500 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+4901 4901 2024-12-05 22:08:05 935.492 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+5792 5792 2024-12-05 22:08:40 736.557 NXSERVER WARNING! Process '/usr/NX/scripts/setup/nxserver --checkservices' with pid '5859/5859' finished with exit code 1 after 0,386 seconds.
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+5987 5987 2024-12-05 22:09:15 000.111 NXSERVER WARNING! Process '/usr/NX/scripts/setup/nxserver --checkservices' with pid '6057/6057' finished with exit code 1 after 0,565 seconds.
+6351 6351 2024-12-05 22:10:02 564.815 System/System: WARNING! Child pid 6934 not handled in system at 0x7fac53fdc0.
+6351 6351 2024-12-05 22:10:02 565.346 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+6842 6842 2024-12-05 22:10:02 600.990 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+6842 6842 2024-12-05 22:10:02 639.543 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+7369 7369 2024-12-05 22:10:27 692.663 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+7655 7655 2024-12-05 22:10:27 720.291 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+7655 7655 2024-12-05 22:10:27 761.173 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+7965 7965 2024-12-05 22:10:53 894.930 System/System: WARNING! Child pid 8348 not handled in system at 0x7fa24cfdc0.
+7965 7965 2024-12-05 22:10:53 895.450 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+8229 8229 2024-12-05 22:10:53 924.362 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+8229 8229 2024-12-05 22:10:53 979.603 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+/usr/NX/scripts/setup/nxserver: line 1419: /usr/NX/var/log/nxinstall.log: Permission denied
+9071 9071 2024-12-05 22:11:15 783.083 NXSERVER WARNING! Process '/usr/NX/scripts/setup/nxserver --checkservices' with pid '9103/9103' finished with exit code 1 after 0,411 seconds.
+8594 8594 2024-12-05 22:11:19 726.091 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+8840 8840 2024-12-05 22:11:19 750.525 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+8840 8840 2024-12-05 22:11:19 812.707 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+Usage: nxnode ...
+       this command is intended to be used only by NX Server
+       or NX Workstation.
+1641 1641 2024-12-05 22:13:36 483.057 System/System: WARNING! Child pid 2429 not handled in system at 0x7f9c76fdc0.
+1641 1641 2024-12-05 22:13:36 484.217 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+2342 2342 2024-12-05 22:13:36 508.961 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+2342 2342 2024-12-05 22:13:36 541.539 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+2574 2574 2024-12-05 22:13:59 808.156 System/System: WARNING! Child pid 2838 not handled in system at 0x7f931efdc0.
+2574 2574 2024-12-05 22:13:59 808.612 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+2756 2756 2024-12-05 22:13:59 829.918 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+2756 2756 2024-12-05 22:13:59 862.242 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+2984 2984 2024-12-05 22:14:23 382.043 System/System: WARNING! Child pid 3253 not handled in system at 0x7faba7fdc0.
+2984 2984 2024-12-05 22:14:23 382.713 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+3169 3169 2024-12-05 22:14:23 407.897 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+3169 3169 2024-12-05 22:14:23 437.803 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+3427 3427 2024-12-05 22:14:46 752.842 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+3610 3610 2024-12-05 22:14:46 776.708 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+3610 3610 2024-12-05 22:14:46 823.019 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+3838 3838 2024-12-05 22:15:11 150.018 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+3838 3838 2024-12-05 22:15:11 479.521 System/System: WARNING! Child pid 4106 not handled in system at 0x7fa10dfdc0.
+3838 3838 2024-12-05 22:15:11 479.619 System/System: WARNING! Child pid 4167 not handled in system at 0x7fa10dfdc0.
+3838 3838 2024-12-05 22:15:11 480.013 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+4020 4020 2024-12-05 22:15:11 505.005 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+4020 4020 2024-12-05 22:15:11 537.309 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+4252 4252 2024-12-05 22:15:35 084.357 System/System: WARNING! Child pid 4522 not handled in system at 0x7f9964fdc0.
+4252 4252 2024-12-05 22:15:35 084.755 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+4435 4435 2024-12-05 22:15:35 107.946 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+4435 4435 2024-12-05 22:15:35 159.661 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+4664 4664 2024-12-05 22:15:58 349.130 System/System: WARNING! Child pid 4936 not handled in system at 0x7f90dffdc0.
+4664 4664 2024-12-05 22:15:58 350.014 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+4846 4846 2024-12-05 22:15:58 374.618 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+4846 4846 2024-12-05 22:15:58 409.885 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+5064 5064 2024-12-05 22:16:22 114.010 System/System: WARNING! Child pid 5346 not handled in system at 0x7f9d43fdc0.
+5064 5064 2024-12-05 22:16:22 114.829 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+5259 5259 2024-12-05 22:16:22 139.305 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+5259 5259 2024-12-05 22:16:22 179.506 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+5488 5488 2024-12-05 22:16:45 599.501 System/System: WARNING! Child pid 5760 not handled in system at 0x7fb200fdc0.
+5488 5488 2024-12-05 22:16:45 601.333 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+5672 5672 2024-12-05 22:16:45 629.694 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+5672 5672 2024-12-05 22:16:45 664.303 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
+5901 5901 2024-12-05 22:17:09 088.666 System/System: WARNING! Child pid 6174 not handled in system at 0x7f9ed5fdc0.
+5901 5901 2024-12-05 22:17:09 089.156 Io/Io: WARNING! Descriptor FD#26 type socket still open at exit.
+6084 6084 2024-12-05 22:17:09 114.578 NXNODE   WARNING! NXSessionMonitor: Aborting message from agent.
+Error: An error occurred when serving the request. Please check the log file for details.
+6084 6084 2024-12-05 22:17:09 144.823 Io/Io: WARNING! Descriptor FD#8 type socket still open at exit.
