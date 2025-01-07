@@ -1,4 +1,0 @@
-remove 127.0.0.1:1002
-remove :1002
-remove :3002
-exit

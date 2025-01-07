@@ -1,1 +1,0 @@
-nx/nx,slave=1,id=raspberrypi-1001-8095FF84502E87C509F0FB7EC960FF8B,cookie=4DCD965F074719CA3200D991E0CEDD17,audioin=5:5:vorbis:socket-pipewire-0:1,voiceout=5:5:speex:socket-pipewire-0:1,cpus=4,hwenc=1,encmode=auto,monitor=8,threads=auto,priority=realtime,dxgrab=1,legacykb=0,shading=1,shadow=:0:1001

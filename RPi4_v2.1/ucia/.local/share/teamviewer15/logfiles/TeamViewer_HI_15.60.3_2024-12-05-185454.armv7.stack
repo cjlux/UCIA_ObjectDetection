@@ -1,6 +1,0 @@
-[0x8f2018]
-[0x8f03bc]
-[0x8bf01c]
-/lib/arm-linux-gnueabihf/libc.so.6(__default_rt_sa_restorer+0x0)[0xf25b62b0]
-/lib/arm-linux-gnueabihf/libc.so.6(+0x7caa0)[0xf25fcaa0]
-/lib/arm-linux-gnueabihf/libc.so.6(gsignal+0x14)[0xf25b4d2c]
